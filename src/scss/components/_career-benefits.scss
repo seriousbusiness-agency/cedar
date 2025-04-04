@@ -1,0 +1,235 @@
+@use '../core/fonts' as *;
+@use '../utils/functions' as *;
+@use '../utils/mixins' as *;
+@use '../utils/easings' as *;
+
+.career-benefits {
+	padding: rem(66) rem(16) rem(80);
+	display: flex;
+	flex-direction: column;
+	gap: rem(60);
+
+	@include breakpoint(desktop) {
+		padding: rem(200) rem(48) rem(100);
+	}
+
+	&__heading {
+		display: flex;
+		flex-direction: column;
+		gap: rem(24);
+		max-width: rem(516);
+	}
+
+	&__title {
+		@include text(h2);
+
+		@include breakpoint(desktop) {
+			@include text(h3);
+		}
+	}
+
+	&__paragraph {
+		color: var(--dark-gray-70);
+
+		@include text(body);
+	}
+
+	&__item {
+		padding: rem(24);
+		background-color: var(--white);
+		border-radius: rem(14);
+		min-height: rem(290);
+		height: auto;
+		display: flex;
+		flex-direction: column;
+
+		// justify-content: space-between;
+
+		@include breakpoint(desktop) {
+			min-height: rem(384);
+			padding: rem(36);
+			border-radius: rem(20);
+			gap: rem(48);
+		}
+
+		&__heading {
+			display: flex;
+			flex-direction: column;
+			gap: rem(6);
+			flex: 1;
+
+			@include breakpoint(desktop) {
+				gap: rem(10);
+			}
+		}
+
+		&__number {
+			@include text(small-info-bold);
+
+			@include breakpoint-max(desktop) {
+				--font-size: #{rem(10)};
+			}
+		}
+
+		&__title {
+			@include text(h3);
+		}
+
+		&__content {
+			display: flex;
+			flex-direction: column;
+			gap: rem(8);
+			flex: 2;
+
+			// flex: 1;
+
+			@include breakpoint(desktop) {
+				gap: rem(12);
+			}
+		}
+
+		&__text {
+			@include text(h1);
+
+			@include breakpoint-max(desktop) {
+				--font-size: #{rem(64)};
+			}
+		}
+
+		&__icon {
+			width: rem(68);
+			height: rem(68);
+
+			@include breakpoint(desktop) {
+				width: rem(100);
+				height: rem(100);
+			}
+
+			img {
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+			}
+		}
+
+		&__paragraph {
+			color: var(--dark-gray-70);
+
+			@include text(body-small);
+
+			@include breakpoint(desktop) {
+				@include text(body);
+			}
+		}
+	}
+
+	.wrapper {
+		overflow: visible !important;
+
+		@include breakpoint-max(desktop) {
+			display: none;
+		}
+	}
+
+	.base {
+		// padding: rem(10) rem(16);
+		// background-color: var(--light-gray);
+		// border-radius: rem(4);
+		position: absolute;
+		top: 0;
+		left: 0;
+		translate: -50% -50%;
+		pointer-events: none;
+		z-index: 2;
+		overflow: hidden;
+
+		div {
+			padding: rem(10) rem(16);
+			background-color: var(--light-gray);
+			border-radius: rem(4);
+
+			// translate: -50% -50%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			gap: rem(12);
+			transition: scale 0.45s $ease-out-quart;
+		}
+
+		span {
+			--font-size: #{rem(14)};
+			--font-weight: 700;
+
+			color: var(--dark-gray);
+			text-transform: uppercase;
+			font-size: rem(18);
+			line-height: 1;
+			letter-spacing: -0.01em;
+			font-weight: 500;
+		}
+
+		svg {
+			width: rem(18);
+			height: rem(18);
+			flex-shrink: 0;
+		}
+	}
+
+	&__items {
+		position: relative;
+		user-select: none;
+
+		@include breakpoint-max(desktop) {
+			padding-right: rem(100);
+			display: flex;
+			flex-direction: column;
+			gap: rem(30);
+		}
+
+		@include breakpoint(desktop) {
+			&:has(.swiper-slide:nth-child(5)) {
+				padding-inline: 0 rem(656 - 48);
+			}
+		}
+
+		&__buttons {
+			display: flex;
+			gap: rem(9);
+		}
+
+		&__button {
+			width: rem(42);
+			height: rem(42);
+			border-radius: rem(6);
+			background-color: var(--dark-gray);
+			position: relative;
+			transition: opacity 0.45s $ease-out-quart;
+
+			&::before {
+				content: '';
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				translate: -50% -50%;
+				width: rem(26);
+				height: rem(26);
+				background-image: url("data:image/svg+xml,%3Csvg width='26' height='26' viewBox='0 0 26 26' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M9.75 19.5L16.25 13L9.75 6.5' stroke='white' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+				background-position: center;
+				background-size: cover;
+				background-repeat: no-repeat;
+			}
+
+			&--prev::before {
+				rotate: 180deg;
+			}
+
+			&.swiper-button-disabled {
+				opacity: 0.2;
+			}
+		}
+
+		&:not(.active) .base div {
+			scale: 0;
+		}
+	}
+}

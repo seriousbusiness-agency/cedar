@@ -1,0 +1,65 @@
+@use '../core/fonts' as *;
+@use '../utils/functions' as *;
+@use '../utils/mixins' as *;
+@use '../utils/easings' as *;
+
+.marquee {
+	padding-block: rem(12);
+	position: relative;
+
+	&::before,
+	&::after {
+		content: '';
+		position: absolute;
+		top: 0;
+		right: 0;
+		z-index: 1;
+		pointer-events: none;
+		height: 100%;
+		width: rem(133);
+		background: linear-gradient(90deg, rgb(240 240 239 / 0%) 0%, #f0f0ef 100%);
+
+		@include breakpoint(desktop) {
+			width: rem(453);
+		}
+	}
+
+	&::before {
+		rotate: 180deg;
+		right: auto;
+		left: 0;
+	}
+
+	&__wrapper {
+		display: flex;
+		width: max-content;
+		transform: translateZ(0);
+		animation: marquee 30s linear infinite;
+
+		@keyframes marquee {
+			to {
+				// translate: calc(-100% / 3) 0;
+				transform: translateX(calc(-100% / 3));
+			}
+		}
+	}
+
+	&__items {
+		display: flex;
+		overflow: hidden;
+		transform: translateZ(0);
+		flex-shrink: 0;
+
+		@include breakpoint(desktop) {
+			gap: rem(68);
+			padding-left: rem(68);
+		}
+
+		img {
+			transform: translateZ(0);
+			height: rem(51);
+			width: auto;
+			margin-inline: auto;
+		}
+	}
+}

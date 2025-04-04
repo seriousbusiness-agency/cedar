@@ -1,0 +1,51 @@
+name: Navbar
+preview: fields
+wysiwyg: true
+fields:
+  cookiesTitle:
+    type: text
+    label: Cookies Title
+  cookiesDescription:
+    type: textarea
+    label: Cookies Description
+  cookiesAcceptAllText:
+    type: text
+    label: Accept All Button Text
+  cookiesDeclineText:
+    type: text
+    label: Decline Button Text
+  cookiesManagePreferencesText:
+    type: text
+    label: Manage Preferences Button Text
+  cookiesLinks:
+    type: structure
+    label: Cookie Links
+    fields:
+      title:
+        type: text
+        label: Link Title
+      url:
+        type: url
+        label: Link URL
+  cookiesPreferencesTitle:
+    type: text
+    label: Preferences Title
+  cookiesPreferencesText:
+    type: textarea
+    label: Preferences Description
+  cookiePreferencesItems:
+    type: structure
+    label: Cookie Preferences
+    fields:
+      title:
+        type: text
+        label: Cookie Type Title
+      value:
+        type: text
+        label: Cookie Description
+      text:
+        type: textarea
+        label: Cookie Value
+  cookiesSaveText:
+    type: text
+    label: Save Preferences Button Text

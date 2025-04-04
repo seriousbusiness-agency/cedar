@@ -1,0 +1,48 @@
+name: Navbar
+preview: fields
+wysiwyg: true
+fields:
+  mainLinks:
+    label: Navigation Links
+    type: structure
+    fields:
+      title:
+        label: Link Title
+        type: text
+      type:
+        label: Link Type
+        type: radio
+        options:
+          simple: Simple
+          dropdown: Dropdown
+      url:
+        label: URL
+        type: text
+        when:
+          type: simple
+      sublinks:
+        label: Dropdown Links
+        type: structure
+        when:
+          type: dropdown
+        fields:
+          title:
+            label: Link Title
+            type: text
+          url:
+            label: URL
+            type: text
+          icon:
+            label: Icon
+            type: files
+            multiple: false
+  contactButton:
+    label: Contact Button
+    type: structure
+    fields:
+      title:
+        label: Button Text
+        type: text
+      url:
+        label: Button URL
+        type: text

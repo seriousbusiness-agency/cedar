@@ -1,0 +1,192 @@
+title: Use Case
+
+extends: default
+
+fields:
+  productTax:
+    label: Product
+    type: multiselect
+    options: query
+    query:
+      fetch: site.products.toStructure
+      text: "{{ item.name }}"
+      value: "{{ item.slug }}"
+    width: 1/3
+
+  industryTax:
+    label: Industry
+    type: multiselect
+    options: query
+    query:
+      fetch: site.industries.toStructure
+      text: "{{ item.name }}"
+      value: "{{ item.slug }}"
+    width: 1/3
+
+  partnerTax:
+    label: Partner
+    type: multiselect
+    options: query
+    query:
+      fetch: site.partners.toStructure
+      text: "{{ item.name }}"
+      value: "{{ item.slug }}"
+    width: 1/3
+
+  logoWhite:
+    label: Company logo (white)
+    type: files
+    max: 1
+    width: 1/2
+
+  company:
+    label: Company name
+    type: text
+    width: 1/2
+
+  featuredVideo:
+    label: Featured Video
+    type: files
+    max: 1
+
+  videoPoster:
+    label: Video Poster
+    type: files
+    max: 1
+
+  featuredImage:
+    label: Featured Image
+    type: files
+    max: 1
+
+  excerpt:
+    label: Excerpt (small summary of the use case to be displayed in the use cases listing)
+    type: textarea
+
+  blocks:
+    type: blocks
+    fieldsets:
+      sideText:
+        name: Side Text Section
+        preview: fields
+        wysiwyg: true
+        icon: ↔️
+        fields:
+          position:
+            label: Image Position
+            type: radio
+            columns: 6
+            options:
+              left: Left
+              right: Right
+          title:
+            label: Title
+            type: text
+          description:
+            label: Description
+            type: textarea
+          image:
+            label: Side Image
+            type: files
+            max: 1
+
+      successStorySlider:
+        name: Success Story Slider
+        preview: fields
+        wysiwyg: true
+        icon: 📊
+        fields:
+          backgroundColor:
+            label: Background Color
+            type: radio
+            columns: 6
+            options:
+              white: White
+              gray: Gray
+          slides:
+            type: structure
+            fields:
+              logo:
+                type: files
+                max: 1
+              quote:
+                type: textarea
+              name:
+                type: text
+              position:
+                type: text
+              link:
+                type: structure
+                max: 1
+                fields:
+                  title:
+                    type: text
+                  url:
+                    type: url
+                  target:
+                    type: select
+                    options:
+                      _self: Same Window
+                      _blank: New Window
+              image:
+                type: files
+                max: 1
+
+      text:
+        name: Text Section
+        preview: fields
+        wysiwyg: true
+        icon: 📝
+        fields:
+          title:
+            label: Title
+            type: text
+          text:
+            label: Content
+            type: textarea
+            size: large
+            kirbytext: false
+            breaks: true
+
+      download:
+        name: Download Case Study
+        preview: fields
+        wysiwyg: true
+        icon: 🏢
+        fields:
+          image:
+            type: files
+            max: 1
+          title:
+            type: text
+          description:
+            type: textarea
+          emailPlaceholder:
+            type: text
+            label: Email Placeholder
+          button:
+            type: structure
+            max: 1
+            fields:
+              title:
+                type: text
+
+      kpisUseCase:
+        name: KPIs Section
+        preview: fields
+        wysiwyg: true
+        icon: 📊
+        fields:
+          items:
+            type: structure
+            label: KPI Items
+            fields:
+              title:
+                type: text
+                label: KPI Value
+                help: e.g., "Up to 98% service level" or "20% increase"
+              description:
+                type: textarea
+                label: KPI Description
+                size: small
+

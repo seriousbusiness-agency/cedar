@@ -1,0 +1,179 @@
+@use '../utils/functions' as *;
+
+// colors
+:root {
+	--dark-gray: rgb(52 51 49);
+	--dark-gray-10: rgb(52 51 49 / 10%);
+	--dark-gray-20: rgb(52 51 49 / 20%);
+	--dark-gray-30: rgb(52 51 49 / 30%);
+	--dark-gray-40: rgb(52 51 49 / 40%);
+	--dark-gray-50: rgb(52 51 49 / 50%);
+	--dark-gray-60: rgb(52 51 49 / 60%);
+	--dark-gray-70: rgb(52 51 49 / 70%);
+	--mid-gray: rgb(218 217 214);
+	--light-gray: rgb(240 240 239);
+	--white: rgb(253 253 253);
+	--white-50: rgba(253 253 253 / 50%);
+	--white-60: rgb(249 249 249);
+	--purple: rgb(165 124 255);
+	--purple-hover: rgb(134 87 234);
+	--blue: rgb(71 123 255);
+	--orange: rgb(250 147 73);
+	--green: rgb(75 203 157);
+}
+
+// layout variables
+$default-font-size: 16;
+$layout-desktop-width: 1440;
+$layout-tablet-width: 768;
+$layout-mobile-width: 375;
+$max-layout-aspect-ratio: 2.3;
+
+// breakponts
+$breakpoints: (
+	'tablet': 600,
+	'desktop': 768
+);
+
+// font sizes styleguide
+$headings: (
+	'h1': (
+		'default': (
+			'font-size': var(--font-size, rem(48)),
+			'line-height': 1,
+			'letter-spacing': -0.05em,
+			'font-weight': var(--font-weight, 500)
+		),
+		'desktop': (
+			'font-size': var(--font-size, rem(84))
+		)
+	),
+	'h2': (
+		'default': (
+			'font-size': var(--font-size, rem(36)),
+			'line-height': 1,
+			'letter-spacing': -0.05em,
+			'font-weight': var(--font-weight, 500)
+		),
+		'desktop': (
+			'font-size': var(--font-size, rem(64))
+		)
+	),
+	'h3': (
+		'default': (
+			'font-size': var(--font-size, rem(28)),
+			'line-height': var(--line-height, 1.05),
+			'letter-spacing': var(--letter-spacing, -0.04em),
+			'font-weight': var(--font-weight, 500)
+		),
+		'desktop': (
+			'font-size': var(--font-size, rem(40))
+		)
+	),
+	'h4': (
+		'default': (
+			'font-size': var(--font-size, rem(20)),
+			'line-height': 1.05,
+			'letter-spacing': var(--letter-spacing, -0.03em),
+			'font-weight': var(--font-weight, 500)
+		),
+		'desktop': (
+			'font-size': var(--font-size, rem(28))
+		)
+	),
+	'h4-24': (
+		'default': (
+			'font-size': var(--font-size, rem(20)),
+			'line-height': 1.05,
+			'letter-spacing': -0.03em,
+			'font-weight': var(--font-weight, 500)
+		),
+		'desktop': (
+			'font-size': var(--font-size, rem(24))
+		)
+	),
+	'h5': (
+		'default': (
+			'font-size': var(--font-size, rem(16)),
+			'line-height': 1.2,
+			'letter-spacing': -0.02em,
+			'font-weight': var(--font-weight, 500)
+		),
+		'desktop': (
+			'line-height': 1.05,
+			'letter-spacing': -0.04em,
+			'font-size': var(--font-size, rem(20))
+		)
+	),
+	'h6': (
+		'default': (
+			'font-size': var(--font-size, rem(12)),
+			'line-height': var(--line-height, 1.2),
+			'letter-spacing': var(--letter-spacing, -0.01em),
+			'font-weight': var(--font-weight, 600)
+		),
+		'desktop': (
+			'font-size': var(--font-size, rem(16))
+		)
+	),
+	'body': (
+		'default': (
+			'font-size': var(--font-size, rem(16)),
+			'line-height': var(--line-height, 1.5),
+			'font-weight': var(--font-weight, 300)
+		),
+		'desktop': (
+			'font-size': var(--font-size, rem(16))
+		)
+	),
+	'body-large': (
+		'default': (
+			'font-size': var(--font-size, rem(16)),
+			'line-height': var(--line-height, 1.5),
+			'font-weight': var(--font-weight, 300)
+		),
+		'desktop': (
+			'line-height': var(--line-height, 1.4),
+			'font-size': var(--font-size, rem(20))
+		)
+	),
+	'body-small': (
+		'default': (
+			'font-size': var(--font-size, rem(12)),
+			'line-height': 1.2,
+			'letter-spacing': -0.01em,
+			'font-weight': var(--font-weight, 300)
+		),
+		'desktop': (
+			'line-height': 1.5,
+			'font-size': var(--font-size, rem(16))
+		)
+	),
+	'small-info-bold': (
+		'default': (
+			'font-size': var(--font-size, rem(12)),
+			'line-height': 1.2,
+			'letter-spacing': -0.01em,
+			'font-weight': var(--font-weight, 600)
+		)
+	),
+	'small-info-light': (
+		'default': (
+			'font-size': var(--font-size, rem(12)),
+			'line-height': 1.2,
+			'letter-spacing': -0.01em,
+			'font-weight': var(--font-weight, 300)
+		)
+	),
+	'button': (
+		'default': (
+			'font-size': var(--button-font-size, rem(16)),
+			'line-height': 0.9,
+			'letter-spacing': -0.02em,
+			'font-weight': var(--button-font-weight, 500)
+		),
+		'desktop': (
+			'font-size': var(--button-font-size, rem(16))
+		)
+	)
+);

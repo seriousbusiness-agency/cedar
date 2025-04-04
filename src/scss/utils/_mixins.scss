@@ -1,0 +1,67 @@
+@use '../common/variables' as *;
+@use 'sass:map';
+
+@mixin breakpoint($name) {
+	@media (min-width: #{map.get($breakpoints, $name)}px) {
+		@content;
+	}
+}
+
+@mixin breakpoint-max($name) {
+	$width: map.get($breakpoints, $name);
+
+	@media (max-width: #{$width - 1}px) {
+		@content;
+	}
+}
+
+@mixin vfit($property, $value, $aspect-ratio: 2) {
+	#{$property}: calc(min(#{$value}vw, calc(#{$value}vh * $aspect-ratio)));
+}
+
+@mixin transition($time: 0.3s, $props: all, $ease: $ease-out-quad, $delay: 0s) {
+	transition: $props $time $ease $delay;
+}
+
+@mixin flex($justify: flex-start, $align: flex-start, $direction: row) {
+	display: flex;
+	justify-content: $justify;
+	align-items: $align;
+	flex-direction: $direction;
+}
+
+@mixin inline-flex($justify: flex-start, $align: flex-start, $direction: row) {
+	display: inline-flex;
+	justify-content: $justify;
+	align-items: $align;
+	flex-direction: $direction;
+}
+
+@mixin text($name) {
+	$size-values: map.get($headings, $name);
+	$sizes-default: map.get($size-values, 'default');
+
+	@each $key, $value in $sizes-default {
+		#{$key}: $value;
+	}
+
+	$sizes-tablet: map.get($size-values, 'tablet');
+
+	@if $sizes-tablet {
+		@include breakpoint(tablet) {
+			@each $key, $value in $sizes-tablet {
+				#{$key}: $value;
+			}
+		}
+	}
+
+	$sizes-desktop: map.get($size-values, 'desktop');
+
+	@if $sizes-desktop {
+		@include breakpoint(desktop) {
+			@each $key, $value in $sizes-desktop {
+				#{$key}: $value;
+			}
+		}
+	}
+}

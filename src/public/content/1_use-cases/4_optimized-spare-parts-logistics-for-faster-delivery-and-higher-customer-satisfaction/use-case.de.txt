@@ -1,0 +1,53 @@
+Title: Optimierte Ersatzteillogistik für schnellere Lieferung und höhere Kundenzufriedenheit
+
+----
+
+Slug: optimierte-ersatzteillogistik-fuer-schnellere-lieferung-und-hoehere-kundenzufriedenheit
+
+----
+
+Producttax: parts-os-fulfillment
+
+----
+
+Industrytax: thermoformen, verpackungstechnik
+
+----
+
+Partnertax: 
+
+----
+
+Logowhite: - file://6g4IwdyKC3iawydn
+
+----
+
+Logoblack: 
+
+----
+
+Featuredimage: - file://OzAFAWdjTPONvEow
+
+----
+
+Excerpt: ILLIG optimiert mit PartsCloud die Ersatzteillogistik, reduziert Kosten und verbessert die Lieferperformance durch automatisierte Prozesse und smarte Planung.
+
+----
+
+Blocks: [{"content":{"title":"Das Problem","text":"Die ILLIG Maschinenbau GmbH & Co. KG aus Heilbronn, ist ein führender Anbieter von Thermoform- und Verpackungssystemen sowie Werkzeugen für Karton, Papier und Kunststoff. Das Ersatzteilgeschäft bei ILLIG wurde bisher nur nebenbei betrieben, da der Fokus auf neuen Maschinen lag. Die gemischte Lagerhaltung von Ersatzteilen und Produktionsmaterial führte zu einer fehlenden Transparenz und einem einer mangelnden Kontrolle der Bestände. Es gab kein globales Ersatzteillogistik-Netzwerk, was zu langen Lieferzeiten und geringer Bestandssichtbarkeit führte. Hinzu kam ein hoher manueller Aufwand in der Bestandsverwaltung und ineffiziente Prozesse. Dringende Bestellungen führten regelmäßig zu Kapazitätsengpässen in der Logistik und im Versand."},"id":"c3234992-d04f-471a-b4b1-eb76dca3b98e","isHidden":false,"type":"text"},{"content":{"title":"Unser Ansatz","text":"In einem “Design-Sprint” haben wir gemeinsam eine Strategie für eine optimierte Ersatzteillogistik erarbeitet. ILLIG entschied sich, die Inhouse-Lagerhaltung auf eine 4PL-Logistikplattform umzustellen und PartsOS Inventory für die datenbasierte Bestandsplanung zu nutzen. Gleichzeitig erfolgte die nahtlose Anbindung an das SAP-System von ILLIG. Um weltweit einen einheitlichen Service sicherzustellen, wurde ein zentrales europäisches Ersatzteillager eingerichtet. Die Implementierung weiterer Module wie PartsOS Customs, PartsOS Planning und US Fulfillment (in Planung) erfolgte schrittweise, um eine nachhaltige Skalierung zu gewährleisten."},"id":"6153a9c5-6f8e-44ac-833b-893a09a55c66","isHidden":false,"type":"text"},{"content":{"title":"Das Ergebnis","text":"Dank PartsCloud hat ILLIG einen “Plug-and-Play”-Zugang zu einem globalen Logistiknetzwerk, was zu einer zentralen Bestandstransparenz und einer höheren Kundenzufriedenheit durch digitalisierte Prozesse führt. Die Umstellung hat eine signifikante Kostenreduktion und Skaleneffekte gebracht, die mit klassischen 3PL-Logistikern nicht erreichbar gewesen wären. Durch automatisierte Prozesse und intelligente Lagerverwaltung konnte die Bestellabwicklung beschleunigt und die internationale Ersatzteilversorgung optimiert werden – zunächst für Europa, später auch für die USA und Asien."},"id":"7be503ea-fb61-446f-bee0-f8d32eb6948a","isHidden":false,"type":"text"},{"content":{"items":[{"title":"6 Monate","description":"nach Start ist die Lieferperformance signifikant verbessert"},{"title":"23.5%","description":"Reduzierung der Kosten pro Bestellung"},{"title":"2:15 h","description":"Verbesserung der Cut-Off-Zeit für dringende Bestellungen"},{"title":"<0,5%","description":"als Wert bei Kundenreklamationen erreicht"}]},"id":"ad427560-6001-485b-81c7-eeb67fe08f43","isHidden":false,"type":"kpisUseCase"},{"content":{"backgroundcolor":"gray","slides":[{"logo":["file://irTxN1XtRg68Kwpe"],"quote":"„Mit der Spare Parts Plattform PartsOS von PartsCloud sind wir als Maschinenbauer in der Lage, einen weltweit einheitlichen Spare Parts Service aufzubauen.“","name":"Tobias Zimmer","position":"Vice President Service","link":[],"image":["file://62QOx6ktBcJMxnTi"]}]},"id":"ffddf3c4-71c5-40c6-adad-2c63c826d369","isHidden":false,"type":"successStorySlider"}]
+
+----
+
+Product: fulfillment
+
+----
+
+Industry: aerospace
+
+----
+
+Partner: planning
+
+----
+
+Uuid: Onf1EdRKmUG2KJ2z

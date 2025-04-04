@@ -1,0 +1,53 @@
+Title: Intelligent spare parts planning for greater efficiency and availability
+
+----
+
+Producttax: partsos-planning
+
+----
+
+Industrytax: woodworking-machinery
+
+----
+
+Partnertax: 
+
+----
+
+Logowhite: - file://GwBFijnqkPxRvoDR
+
+----
+
+Company: Weinig
+
+----
+
+Featuredimage: - file://CUqZo2eC51zjqSbc
+
+----
+
+Excerpt: Weinig optimizes spare parts planning with PartsCloud, using AI-driven forecasts to reduce excess inventory and improve availability.
+
+----
+
+Blocks: [{"content":{"title":"The problem","text":"Weinig AG is a German engineering company specializing in woodworking machines and systems, providing solutions for the industrial production of solid wood and wood-based products. The company faced significant challenges in spare parts planning, characterized by high manual effort and a lack of transparency regarding inventory levels and demand across its production sites. Different planning and procurement methods within various business units led to redundant processes and excess inventory. At the same time, inaccurate safety stock levels negatively impacted the availability of critical spare parts. While certain parts were frequently out of stock, there were also substantial surplus inventories and high write-offs."},"id":"2a2b41ea-ac03-4df3-9038-49b224943de2","isHidden":false,"type":"text"},{"content":{"title":"Our approach","text":"With the AI-powered planning software PartsOS Planning, we identified optimization and synergy opportunities within the spare parts business. The introduction of PartsOS Planning enabled SKU-specific demand forecasting and dynamic stock flow calculations, significantly improving overall spare parts performance. To streamline processes and reduce bottlenecks, the planning and procurement strategy was revised based on data-driven insights. The rollout was conducted in phases, starting with individual business units to ensure a smooth implementation. At the same time, a tailored integration roadmap was developed to synchronize with ongoing ERP transformation projects. The implementation was carried out in close, collaborative partnership."},"id":"5182405e-6233-4bcb-b191-864c0cfdba4b","isHidden":false,"type":"text"},{"content":{"title":"The result","text":"Automating planning and procurement processes significantly reduced manual effort. With AI- and machine learning-driven inventory management, both excess stock and shortages were minimized. Additionally, optimized procurement strategies and end-to-end workflow automation with PartsOS Planning led to a substantial improvement in spare parts availability."},"id":"1969e5a8-06a4-42d9-8204-fd34bacdb12c","isHidden":false,"type":"text"},{"content":{"items":[{"title":"85%","description":"reduction in manual planning effort"},{"title":"30%","description":"increase in spare parts availability"},{"title":"56%","description":"reduction in order backlog"}]},"id":"322c4a18-f772-4437-91f6-d58d150aa9d2","isHidden":false,"type":"kpisUseCase"},{"content":{"backgroundcolor":"gray","slides":[{"logo":["file://8hxUYvDChVMkI5Nq"],"quote":"\"Our collaboration with PartsCloud has significantly improved our efficiency and accuracy in spare parts management. Thanks to PartsOS Planning, we were able to reduce manual planning efforts by over 85% and significantly enhance spare parts availability. We especially appreciate the strong collaborative partnership, which has been a key factor in our success.\"","name":"Christian Meisen","position":"Head of Lifetime Services","link":[],"image":["file://6ykz33UXOVY5eqLZ"]}]},"id":"b810e2bc-5dcf-4e9e-8663-4ef4d11da499","isHidden":false,"type":"successStorySlider"}]
+
+----
+
+Logoblack: 
+
+----
+
+Product: planning
+
+----
+
+Industry: construction
+
+----
+
+Partner: planning
+
+----
+
+Uuid: 3BgnLT71C57T8eGV

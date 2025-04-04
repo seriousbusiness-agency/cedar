@@ -1,0 +1,311 @@
+Title: Partscloud
+
+----
+
+Navbar:
+
+- 
+  mainlinks:
+    - 
+      title: Lösung
+      type: simple
+      url: /solutions
+      sublinks: [ ]
+    - 
+      title: Produkte
+      type: dropdown
+      url: ""
+      sublinks:
+        - 
+          title: Planning
+          url: /planning
+          icon:
+            - file://8malFcx5prgVQDFM
+        - 
+          title: Fulfillment
+          url: /fulfillment
+          icon:
+            - file://EzuB1gLLcuKgoz8n
+        - 
+          title: Customs
+          url: /customs
+          icon:
+            - file://VT7onWhM39Tb9jTE
+    - 
+      title: Referenzen
+      type: simple
+      url: /use-cases
+      sublinks: [ ]
+    - 
+      title: Unternehmen
+      type: dropdown
+      url: ""
+      sublinks:
+        - 
+          title: Über uns
+          url: /about
+          icon: [ ]
+        - 
+          title: Karriere
+          url: /career
+          icon: [ ]
+  contactbutton:
+    - 
+      title: Kostenlose Beratung
+      url: /consultation
+  languages: [ ]
+
+----
+
+Footer:
+
+- 
+  contact:
+    - 
+      email: info@partscloud.de
+      phone: +49 07127-799875-1
+  supporters: [ ]
+  links:
+    - 
+      title: Lösung
+      links:
+        - 
+          title: Lösung
+          url: /solutions
+          target: _self
+        - 
+          title: PartsOS Planning
+          url: /planning
+          target: _self
+        - 
+          title: PartsOS Fulfillment
+          url: /fulfillment
+          target: _self
+        - 
+          title: PartsOS Customs
+          url: /customs
+          target: _self
+        - 
+          title: Referenzen
+          url: /use-cases
+          target: _self
+    - 
+      title: Unternehmen
+      links:
+        - 
+          title: Über uns
+          url: /about
+          target: _self
+        - 
+          title: Karriere
+          url: /career
+          target: _self
+        - 
+          title: Kontakt
+          url: /contact
+          target: _self
+    - 
+      title: Social
+      links:
+        - 
+          title: LinkedIn
+          url: >
+            https://www.linkedin.com/company/partscloud-gmbh/
+          target: _blank
+        - 
+          title: Youtube
+          url: https://www.youtube.com/@partscloud
+          target: _blank
+    - 
+      title: Legal
+      links:
+        - 
+          title: Datenschutzerklärung
+          url: /legal-notice
+          target: _self
+        - 
+          title: Cookie Richtlinie
+          url: '#cookie'
+          target: _self
+        - 
+          title: Impressum
+          url: /data-privacy
+          target: _self
+
+----
+
+Cookies:
+
+- 
+  cookiestitle: Wir respektieren Ihre Privatsphäre.
+  cookiesdescription: >
+    Wir und unsere Partner verwenden Cookies
+    und andere Technologien, um Ihre
+    Erfahrung zu verbessern, die Leistung zu
+    messen und Marketing individuell
+    anzupassen.
+  cookiesacceptalltext: ALLE AKZEPTIEREN
+  cookiesdeclinetext: ALLE ABLEHNEN
+  cookiesmanagepreferencestext: ANPASSEN
+  cookieslinks:
+    - 
+      title: Datenschutzerklärung
+      url: https://partscloud.com/privacy-policy
+  cookiespreferencestitle: Cookie preferences
+  cookiespreferencestext: >
+    We and our partners use cookies and
+    other technologies to improve your
+    experience, measure performance, and
+    tailor marketing.
+  cookiepreferencesitems:
+    - 
+      title: Notwendig
+      value: >
+        Notwendige Cookies ermöglichen
+        grundlegende Funktionen und sind für
+        die einwandfreie Funktion der Website
+        erforderlich.
+      text: kirby,language
+    - 
+      title: Statistiken
+      value: >
+        Statistik-Cookies sammeln Informationen
+        anonym. Diese Informationen helfen uns,
+        zu verstehen, wie unsere Besucher unsere
+        Website nutzen.
+      text: personio,hubspot
+    - 
+      title: Externe Medien
+      value: >
+        Inhalte von Video-Plattformen und
+        sozialen Medien werden standardmäßig
+        blockiert. Wenn Cookies für externe
+        Medien akzeptiert werden, ist der
+        Zugriff auf diese Inhalte nicht mehr
+        manuell zustimmungspflichtig.
+      text: >
+        facebook,googlemaps,instagram,openstreetmap,twitter,vimeo,youtube
+  cookiessavetext: SAVE
+
+----
+
+Products:
+
+- 
+  name: PartsOS Planning
+  slug: parts-os-planning
+- 
+  name: PartsOS Fulfillment
+  slug: parts-os-fulfillment
+- 
+  name: PartsOS Customs
+  slug: parts-os-customs
+
+----
+
+Industries:
+
+- 
+  name: Maschinen
+  slug: maschinen
+- 
+  name: Anlagenbau
+  slug: anlagenbau
+- 
+  name: Holzbearbeitungsmaschinenindustrie
+  slug: holzbearbeitungsmaschinenindustrie
+- 
+  name: Reifenmaschinenbau
+  slug: reifenmaschinenbau
+- 
+  name: Maschinenbau
+  slug: maschinenbau
+- 
+  name: Thermoformen
+  slug: thermoformen
+- 
+  name: Verpackungstechnik
+  slug: verpackungstechnik
+
+----
+
+Partners: 
+
+----
+
+Categories:
+
+- 
+  name: News
+  slug: news
+- 
+  name: Blog
+  slug: blog
+- 
+  name: Whitepaper
+  slug: whitepaper
+
+----
+
+Blogproducts:
+
+- 
+  name: PartsCloud Planning
+  slug: partscloud-planning
+- 
+  name: PartsOS Fulfillment
+  slug: partsos-fulfillment
+- 
+  name: PartsOS Customs
+  slug: partsos-customs
+
+----
+
+Events:
+
+- 
+  date: 2025-03-21
+  author: Jonathan Frakes
+  title: Headline about a specific upcoming event
+  image:
+    - file://CrSTQQhjdSbAByaP
+  link:
+    - 
+      url: https://google.com
+      target: _blank
+- 
+  date: 2025-02-17
+  author: Jonathan Frakes
+  title: Headline about a specific upcoming event
+  image:
+    - file://CrSTQQhjdSbAByaP
+  link:
+    - 
+      url: https://google.com
+      target: _blank
+- 
+  date: 2025-03-02
+  author: Jonathan Frakes
+  title: Headline about a specific upcoming event
+  image:
+    - file://CrSTQQhjdSbAByaP
+  link:
+    - 
+      url: https://google.com
+      target: _blank
+
+----
+
+Languages: 
+
+----
+
+Contactbutton: 
+
+----
+
+Twitter: twitter.com
+
+----
+
+Instagram: instagram.com

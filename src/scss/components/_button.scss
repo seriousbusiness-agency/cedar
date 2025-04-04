@@ -1,0 +1,95 @@
+@use '../core/fonts' as *;
+@use '../utils/functions' as *;
+@use '../utils/mixins' as *;
+@use '../utils/easings' as *;
+
+.button {
+	padding: var(--button-padding, rem(10));
+	background-color: var(--background-color, var(--purple));
+	border-radius: rem(6);
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	gap: rem(10);
+	color: var(--white);
+	width: var(--button-width, fit-content);
+	position: relative;
+	isolation: isolate;
+	overflow: hidden;
+	border: 1px solid var(--border-color, transparent);
+
+	> div {
+		overflow: hidden;
+		display: inline-flex;
+		justify-content: center;
+		gap: rem(10);
+		align-items: center;
+		position: relative;
+	}
+
+	&.button--no-arrow > div {
+		overflow: visible;
+	}
+
+	&__title {
+		transition: translate 0.65s $ease-out-quart;
+
+		@include text(button);
+	}
+
+	&__arrow {
+		background-image: url("data:image/svg+xml,%3Csvg width='26' height='26' viewBox='0 0 26 26' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M9.75 19.5L16.25 13L9.75 6.5' stroke='%23FDFDFD' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+		background-position: center;
+		background-size: contain;
+		background-repeat: no-repeat;
+		width: rem(26);
+		height: rem(26);
+		transform: translateZ(0);
+		transition: translate 0.65s $ease-out-quart;
+
+		&:first-child {
+			position: absolute;
+			left: rem(-10);
+			top: 50%;
+			translate: rem(-27) -50%;
+		}
+	}
+
+	.mask-ball {
+		position: absolute;
+		top: 0%;
+		left: -0%;
+		width: 100%;
+		height: 100%;
+		z-index: -1;
+		border-radius: rem(6);
+		transform: translateZ(0);
+
+		circle {
+			fill: var(--purple-hover);
+			r: var(--radius, 0);
+			transform: translate3d(var(--x, 0), var(--y, 0), 0);
+			transition: r 0.65s $ease-out-quart;
+		}
+	}
+
+	&:not(.button--no-arrow) {
+		padding-left: var(--button-padding-left, rem(20));
+
+		&:hover {
+			.button__title {
+				translate: rem(26) 0;
+			}
+
+			.button__arrow {
+				&:first-child {
+					translate: 0 -50%;
+				}
+
+				&:last-child {
+					translate: rem(27) 0;
+				}
+			}
+		}
+	}
+}

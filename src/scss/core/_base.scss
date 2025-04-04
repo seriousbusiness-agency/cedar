@@ -1,0 +1,48 @@
+@use '../common/' as *;
+@use '../components' as *;
+@use '../pages' as *;
+@use '../utils' as *;
+
+body {
+	text-size-adjust: none;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: geometricprecision;
+	overscroll-behavior-y: none;
+	background-color: var(--light-gray);
+	transition: background-color 0.5s $ease-in-out-quad;
+
+	.root {
+		width: 100%;
+
+		.wrapper {
+			width: 100%;
+			overflow: clip;
+
+			// padding: var(--global-padding);
+
+			.root-section {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+
+				> section {
+					width: 100%;
+				}
+			}
+		}
+
+		&.hidden,
+		&.hide {
+			position: fixed;
+		}
+	}
+}
+
+.wpml-ls-statics-footer,
+.otgs-development-site-front-end {
+	display: none;
+}
+
+#loom-companion-mv3 {
+	display: none !important;
+}

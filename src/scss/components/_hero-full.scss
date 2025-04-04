@@ -1,0 +1,203 @@
+@use '../core/fonts' as *;
+@use '../utils/functions' as *;
+@use '../utils/mixins' as *;
+@use '../utils/easings' as *;
+
+.hero-full {
+	padding: rem(113) rem(16) rem(80);
+	background-color: var(--white);
+
+	@include breakpoint(desktop) {
+		padding: rem(100) rem(48) rem(44);
+	}
+
+	&__image {
+		position: relative;
+		isolation: isolate;
+		width: 100%;
+		height: rem(708);
+
+		@include breakpoint(desktop) {
+			height: rem(708);
+		}
+
+		&::before {
+			content: '';
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+			height: 60%;
+			border-radius: rem(24);
+			z-index: 2;
+			background: linear-gradient(180deg, rgb(0 0 0 / 0%) 0%, #000 100%);
+
+			@include breakpoint(desktop) {
+				height: 50%;
+			}
+		}
+
+		img,
+		video {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			border-radius: rem(24);
+		}
+	}
+
+	&__poster {
+		position: absolute;
+		inset: 0;
+		pointer-events: none;
+		transition: opacity 0.65s $ease-out-quart;
+	}
+
+	&__cursor {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		translate: -50% -50%;
+		z-index: 5;
+		cursor: pointer;
+
+		.wrapper {
+			overflow: visible !important;
+
+			@include breakpoint-max(desktop) {
+				position: absolute;
+				top: 0;
+				left: 0;
+				translate: 0;
+			}
+		}
+
+		.base {
+			border-radius: 100vmax;
+			position: absolute;
+			top: rem(14);
+			left: rem(20);
+			pointer-events: none;
+			z-index: 1;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			gap: rem(8);
+			overflow: hidden;
+			transition:
+				width 0.5s $ease-in-out-quart,
+				height 0.5s $ease-in-out-quart,
+				border-width 0.5s $ease-in-out-quart;
+
+			@include breakpoint(desktop) {
+				width: rem(120);
+				height: rem(120);
+				border: 1px solid var(--white);
+				top: 0;
+				left: 0;
+				translate: -50% -50%;
+			}
+
+			&::after {
+				content: '';
+				background-image: url("data:image/svg+xml,%3Csvg width='16' height='16' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg clip-path='url(%23clip0_5522_46925)'%3E%3Cpath d='M4 2.66685V13.3335C3.99997 13.4521 4.03158 13.5686 4.09159 13.6709C4.15159 13.7733 4.23781 13.8577 4.34135 13.9156C4.44489 13.9735 4.562 14.0027 4.68059 14.0002C4.79918 13.9978 4.91497 13.9637 5.016 13.9015L13.6827 8.56819C13.7797 8.50854 13.8599 8.42502 13.9155 8.32558C13.9711 8.22614 14.0003 8.11412 14.0003 8.00019C14.0003 7.88626 13.9711 7.77423 13.9155 7.6748C13.8599 7.57536 13.7797 7.49183 13.6827 7.43219L5.016 2.09885C4.91497 2.0367 4.79918 2.00262 4.68059 2.00015C4.562 1.99767 4.44489 2.02688 4.34135 2.08476C4.23781 2.14265 4.15159 2.22711 4.09159 2.32943C4.03158 2.43175 3.99997 2.54823 4 2.66685Z' fill='white'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_5522_46925'%3E%3Crect width='16' height='16' fill='white'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E%0A");
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+				width: rem(11);
+				height: rem(15);
+				display: inline-block;
+
+				// position: absolute;
+				// top: 50%;
+				// left: 50%;
+				// translate: -50% -50%;
+			}
+
+			span {
+				color: var(--white);
+				text-transform: uppercase;
+				font-size: rem(18);
+				line-height: 1;
+				letter-spacing: -0.01em;
+				font-weight: 500;
+			}
+		}
+
+		&.playing .base {
+			width: 0;
+			height: 0;
+			border-width: 0;
+		}
+
+		&:not(.active) .base,
+		&.playing .base {
+			@include breakpoint(desktop) {
+				width: 0;
+				height: 0;
+				border-width: 0;
+			}
+		}
+	}
+
+	&__content {
+		position: absolute;
+		z-index: 3;
+		bottom: rem(30);
+		left: rem(20);
+		width: calc(100% - rem(40));
+		display: flex;
+		flex-direction: column;
+		gap: rem(24);
+		transition: opacity 0.65s $ease-out-quart;
+
+		@include breakpoint(desktop) {
+			bottom: rem(48);
+			left: rem(44);
+			width: rem(735);
+		}
+	}
+
+	&__logo {
+		height: rem(35);
+		width: auto;
+		max-width: fit-content;
+
+		img {
+			height: 100%;
+			width: auto;
+			object-fit: cover;
+			border-radius: 0;
+		}
+	}
+
+	&__categories {
+		display: flex;
+		gap: rem(8);
+		align-items: center;
+	}
+
+	&__category {
+		background-color: var(--white);
+		border-radius: rem(6);
+		color: var(--dark-gray);
+		padding: rem(7) rem(10) rem(5);
+		width: fit-content;
+
+		@include text(small-info-bold);
+	}
+
+	&__title {
+		color: var(--white);
+
+		@include text(h2);
+	}
+
+	&__paragraph {
+		color: var(--white);
+
+		@include text(body);
+	}
+}

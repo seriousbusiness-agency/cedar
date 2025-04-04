@@ -1,0 +1,61 @@
+Title: Efficient spare parts management through automation and smart planning
+
+----
+
+Producttax: partsos-customs, partsos-fulfillment, partsos-planning
+
+----
+
+Industrytax: plant-engineering, machinery
+
+----
+
+Partnertax: 
+
+----
+
+Logowhite: - file://yLHQC5uM2GQJWk6x
+
+----
+
+Company: Hymmen
+
+----
+
+Featuredvideo: - file://8dT9ErrdomTskUMK
+
+----
+
+Videoposter: - file://vhIBNVe7m0vUjMWF
+
+----
+
+Featuredimage: - file://vhIBNVe7m0vUjMWF
+
+----
+
+Excerpt: Hymmen optimizes spare parts logistics with PartsCloud, reducing delivery times through AI-powered planning, automated customs processing, and smart distribution.
+
+----
+
+Blocks: [{"content":{"title":"The problem","text":"Hymmen GmbH Maschinen- und Anlagenbau is an innovative engineering company based in Bielefeld that has been developing and distributing systems for lamination, digital printing, and surface finishing in industrial production since 1892. Like many other companies, Hymmen faced bottlenecks in customs processing and fulfillment. The mixed storage of spare parts and production materials led to complications, while long delivery times made it difficult to provide a reliable spare parts supply. Additionally, the company lacked access to 3PL outsourcing partners due to low warehouse and shipment volumes."},"id":"6264801b-a3f3-4946-9f88-160a027aa413","isHidden":false,"type":"text"},{"content":{"title":"Our approach","text":"PartsCloud specializes in addressing these challenges. To improve efficiency, PartsOS Customs was first implemented for automated customs processing. At the same time, an AI-powered cleanup of customs-relevant master data was carried out, including tariff codes, classifications, and dual-use goods checks. With PartsOS Planning, demand analyses and AI-driven demand forecasting and inventory planning were introduced for the US and European markets. Additionally, the development of regional and central fulfillment centers was rolled out step by step in the US and is planned for Europe in the future. Finally, all spare parts workflows are being digitized to enable clear, cross-departmental management."},"id":"14e53950-d2ec-414f-9b7f-0ce1e86b0167","isHidden":false,"type":"text"},{"content":{"title":"The result","text":"The automated tariff classification with PartsOS Customs ensures a seamless export process. Thanks to AI-powered demand forecasting and inventory planning with PartsOS Planning, spare parts availability was optimized, and stock levels were adjusted accordingly. The introduction of a smart distribution strategy with central and regional hubs has further shortened delivery times."},"id":"e69e6fcf-7e9b-4032-b3fe-89b2d6c19464","isHidden":false,"type":"text"},{"content":{"items":[{"title":"90%","description":"reduction in manual effort in the spare parts process"},{"title":"20%","description":"faster delivery times"},{"title":"30%","description":"reduction in inventory levels"},{"title":"30%","description":"higher forecast accuracy"}]},"id":"77bd4101-3600-4335-adcc-8fcc212c3ce1","isHidden":false,"type":"kpisUseCase"},{"content":{"backgroundcolor":"gray","slides":[{"logo":["file://qEoOHt6zRAKfKQ0M"],"quote":"\"With PartsCloud's solution, we are taking our spare parts service to the next level in our digitalization strategy. We now plan our spare parts inventory intelligently, avoiding unnecessary capital commitment and long lead times for individual parts. Throughout the implementation phase, PartsCloud was always by our side, and our ideas and feedback were directly incorporated into the software’s further development.\"","name":"Michel Ahring","position":"Head of Service","link":[],"image":["file://Fc5U9UuR9bs5noJA"]}]},"id":"f272ff47-e8cf-4806-a9b7-4db2a2164499","isHidden":false,"type":"successStorySlider"}]
+
+----
+
+Logoblack: 
+
+----
+
+Product: fulfillment
+
+----
+
+Industry: aerospace
+
+----
+
+Partner: planning
+
+----
+
+Uuid: 7vO2hpTY22bqWnZi

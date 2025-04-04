@@ -1,0 +1,60 @@
+@use './common/variables' as *;
+
+// @use 'components/preloader' as *;
+@use './utils/mixins' as *;
+@use './core/fonts' as *;
+@use './core/essential.reset' as *;
+@use 'utils' as *;
+
+:root {
+	--global-padding: #{rem(16)};
+
+	@include breakpoint(tablet) {
+		--global-padding: #{rem(40)};
+	}
+
+	@include breakpoint(desktop) {
+		--global-padding: #{rem(48)};
+	}
+}
+
+html {
+	text-size-adjust: 100%;
+	font-size: calc(100vw / ($layout-mobile-width / $default-font-size));
+	box-sizing: border-box;
+
+	@include breakpoint(tablet) {
+		font-size: calc(100vw / ($layout-tablet-width / $default-font-size));
+	}
+
+	@include breakpoint(desktop) {
+		@include vfit(font-size, calc(100 / ($layout-desktop-width / $default-font-size)), $max-layout-aspect-ratio);
+	}
+}
+
+html,
+body {
+	width: 100%;
+	min-height: 100vh;
+	font-family: $bdo;
+	color: var(--dark-gray);
+}
+
+.hide {
+	display: none !important;
+}
+
+.hidden {
+	visibility: hidden;
+}
+
+.no-scrollbar {
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+	-webkit-overflow-scrolling: touch;
+	overscroll-behavior-y: none;
+
+	&::-webkit-scrollbar {
+		display: none;
+	}
+}

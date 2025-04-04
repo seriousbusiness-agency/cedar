@@ -1,0 +1,57 @@
+Title: Effizientes Ersatzteilmanagement durch Automatisierung und smarte Planung
+
+----
+
+Slug: effizientes-ersatzteilmanagement-durch-automatisierung-und-smarte-planung
+
+----
+
+Producttax: parts-os-fulfillment, parts-os-customs, parts-os-planning
+
+----
+
+Industrytax: maschinen, anlagenbau
+
+----
+
+Partnertax: 
+
+----
+
+Logowhite: - file://yLHQC5uM2GQJWk6x
+
+----
+
+Logoblack: 
+
+----
+
+Featuredimage: - file://vhIBNVe7m0vUjMWF
+
+----
+
+Excerpt: Hymmen optimiert mit PartsCloud die Ersatzteillogistik und verkürzt Lieferzeiten durch KI-gestützte Planung, automatisierte Zollabwicklung und smarte Distribution.
+
+----
+
+Blocks: [{"content":{"title":"Das Problem","text":"Die Hymmen GmbH Maschinen- und Anlagenbau ist ein innovatives Maschinenbauunternehmen aus Bielefeld, das seit 1892 Anlagen für die Kaschierung, den Digitaldruck und die Oberflächenveredelung in der industriellen Produktion entwickelt und weltweit vertreibt. Hymmen hatte, wie viele andere Unternehmen, mit Engpässen in der Zollabwicklung und im Fulfillment-Prozess zu kämpfen. Dazu führte die gemischte Lagerung von Ersatzteilen und Produktionsmaterien zu Komplikationen und lange Lieferzeiten erschwerten eine zufriedenstellende Ersatzteilversorgung. Zudem fehlte der Zugang zu 3PL-Outsourcing-Partnern, da das eigene Lager- und Sendungsvolumen zu gering war."},"id":"6264801b-a3f3-4946-9f88-160a027aa413","isHidden":false,"type":"text"},{"content":{"title":"Unser Ansatz","text":"PartsCloud ist genau auf diese Herausforderungen spezialisiert. Um die Prozesse effizienter zu gestalten, wurde zunächst PartsOS Customs zur automatisierten Zollabwicklung implementiert. Parallel erfolgte eine KI-gestützte Bereinigung der zollrelevanten Stammdaten, einschließlich Zolltarifnummern, Codierung und Dual-Use-Güterprüfung. Mit PartsOS Planning wurden Bedarfsanalysen sowie KI-gestütztes Demand Forecasting und Inventory Planning für die Märkte USA und Europa eingeführt. Zudem erfolgte schrittweise der Aufbau von Regional- und Central-Fulfillment-Centern in den USA und zukünftig auch in Europa. Abschließend werden sämtliche Spare-Parts-Workflows digitalisiert, um eine übersichtliche und abteilungsübergreifende Steuerung zu ermöglichen."},"id":"14e53950-d2ec-414f-9b7f-0ce1e86b0167","isHidden":false,"type":"text"},{"content":{"title":"Das Ergebnis","text":"Die automatisierte Zolltarif-Codierung durch PartsOS Customs sorgt für einen reibungslosen Exportprozess. Dank dem KI-gestützten Demand Forecasting und Inventory Planning mit PartsOS Planning konnte die Ersatzteilverfügbarkeit optimiert und der Lagerbestand angepasst werden. Die Einführung einer smarten Distributionsstrategie mit zentralen und regionalen Hubs hat die Lieferzeiten weiter verkürzt."},"id":"e69e6fcf-7e9b-4032-b3fe-89b2d6c19464","isHidden":false,"type":"text"},{"content":{"items":[{"title":"90%","description":"weniger manueller Aufwand im Ersatzteilprozess"},{"title":"20%","description":"schnellere Lieferzeiten"},{"title":"30%","description":"Reduzierung des Lagerbestands"},{"title":"30%","description":"höhere Forecast-Genauigkeit"}]},"id":"77bd4101-3600-4335-adcc-8fcc212c3ce1","isHidden":false,"type":"kpisUseCase"},{"content":{"backgroundcolor":"gray","slides":[{"logo":["file://qEoOHt6zRAKfKQ0M"],"quote":"\"Mit der Lösung von PartsCloud gehen wir mit unserem Ersatzteilservice den nächsten Schritt in unserer Digitalisierungsstrategie. Wir planen unsere Ersatzteilbestände intelligent und vermeiden so unnötige Kapitalbindung sowie lange Lieferzeiten einzelner Teile für unsere Kunden. Während der Umsetzungsphase stand uns PartsCloud stets mit Rat und Tat zur Seite, und unsere Wünsche und Ideen sind direkt in die Software-Weiterentwicklung eingeflossen.\"","name":"Michel Ahring","position":"Bereichsleiter Service","link":[],"image":["file://Fc5U9UuR9bs5noJA"]}]},"id":"f272ff47-e8cf-4806-a9b7-4db2a2164499","isHidden":false,"type":"successStorySlider"}]
+
+----
+
+Product: fulfillment
+
+----
+
+Industry: aerospace
+
+----
+
+Partner: planning
+
+----
+
+Company: Hymmen
+
+----
+
+Uuid: fXh8wABVhczMcKXs

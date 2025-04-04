@@ -1,0 +1,115 @@
+@use '../core/fonts' as *;
+@use '../utils/functions' as *;
+@use '../utils/mixins' as *;
+@use '../utils/easings' as *;
+
+.map {
+	padding: rem(80) rem(16) rem(130);
+	display: flex;
+	flex-direction: column;
+	gap: rem(60);
+
+	@include breakpoint-max(desktop) {
+		position: relative;
+	}
+
+	@include breakpoint(desktop) {
+		padding-block: rem(100);
+		padding-inline: rem(38) rem(55);
+	}
+
+	&__heading {
+		display: flex;
+		gap: rem(24);
+
+		@include breakpoint-max(desktop) {
+			flex-direction: column;
+		}
+
+		@include breakpoint(desktop) {
+			padding-left: rem(10);
+			gap: rem(42);
+		}
+	}
+
+	&__title {
+		@include text(h3);
+
+		@include breakpoint(desktop) {
+			width: rem(523);
+		}
+	}
+
+	&__paragraph {
+		max-width: rem(453);
+		color: var(--dark-gray-60);
+
+		@include text(body);
+	}
+
+	&__wrapper {
+		// height: rem(227.64);
+		height: auto;
+		width: 100%;
+
+		@include breakpoint-max(desktop) {
+			align-self: center;
+		}
+
+		@include breakpoint(desktop) {
+			position: relative;
+			width: auto;
+			height: rem(664.79);
+		}
+
+		svg {
+			height: auto;
+			width: 100%;
+
+			@include breakpoint(desktop) {
+				height: 100%;
+				width: auto;
+			}
+		}
+	}
+
+	&__captions {
+		display: flex;
+		flex-direction: column;
+		gap: rem(9);
+		position: absolute;
+		bottom: rem(130);
+		left: rem(16);
+
+		@include breakpoint-max(desktop) {
+			translate: 0 calc(100% + rem(40));
+		}
+
+		@include breakpoint(desktop) {
+			top: rem(515);
+			left: rem(10);
+		}
+	}
+
+	&__caption {
+		position: relative;
+		display: flex;
+		align-items: center;
+		gap: rem(16);
+
+		@include text(small-info-bold);
+
+		&::before {
+			content: '';
+			display: inline-block;
+			width: rem(24);
+			height: rem(24);
+			border-radius: 100vmax;
+			background-color: var(--purple);
+		}
+
+		&.orange::before {
+			background-color: var(--orange);
+		}
+	}
+}

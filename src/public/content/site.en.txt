@@ -1,0 +1,302 @@
+Title: Partscloud
+
+----
+
+Navbar:
+
+- 
+  mainlinks:
+    - 
+      title: Solution
+      type: simple
+      url: /en/solutions
+      sublinks: [ ]
+    - 
+      title: Products
+      type: dropdown
+      url: ""
+      sublinks:
+        - 
+          title: Planning
+          url: /en/planning
+          icon:
+            - file://V8sSLx0YMTQHNi7g
+        - 
+          title: Fulfillment
+          url: /en/fulfillment
+          icon:
+            - file://XTzDf8mIP8FwdsTs
+        - 
+          title: Customs
+          url: /en/customs
+          icon:
+            - file://6rO7Ppkxxbvjyoea
+    - 
+      title: Success Stories
+      type: simple
+      url: /en/use-cases
+      sublinks: [ ]
+    - 
+      title: Company
+      type: dropdown
+      url: ""
+      sublinks:
+        - 
+          title: About us
+          url: /en/about
+          icon: [ ]
+        - 
+          title: Career
+          url: /en/career
+          icon: [ ]
+  contactbutton:
+    - 
+      title: Book Consultation
+      url: /en/consultation
+  languages: [ ]
+
+----
+
+Footer:
+
+- 
+  contact:
+    - 
+      email: info@partscloud.de
+      phone: +49 07127-799875-1
+  supporters: [ ]
+  links:
+    - 
+      title: Solutions
+      links:
+        - 
+          title: Solution
+          url: /en/solutions
+          target: _self
+        - 
+          title: PartsOS Planning
+          url: /en/planning
+          target: _self
+        - 
+          title: PartsOS Fulfillment
+          url: /en/fulfillment
+          target: _self
+        - 
+          title: PartsOS Customs
+          url: /en/customs
+          target: _self
+        - 
+          title: Success Stories
+          url: /en/use-cases
+          target: _self
+    - 
+      title: Company
+      links:
+        - 
+          title: About Us
+          url: /en/about
+          target: _self
+        - 
+          title: Career
+          url: /en/career
+          target: _self
+        - 
+          title: Contact
+          url: /en/contact
+          target: _self
+    - 
+      title: Social
+      links:
+        - 
+          title: LinkedIn
+          url: >
+            https://www.linkedin.com/company/partscloud-gmbh/
+          target: _blank
+        - 
+          title: Youtube
+          url: https://www.youtube.com/@partscloud
+          target: _blank
+    - 
+      title: Legal
+      links:
+        - 
+          title: Privacy
+          url: /en/data-privacy
+          target: _self
+        - 
+          title: Cookies
+          url: '#cookie'
+          target: _self
+        - 
+          title: Imprint
+          url: /en/legal-notice
+          target: _self
+
+----
+
+Cookies:
+
+- 
+  cookiestitle: We value your privacy
+  cookiesdescription: >
+    We and our partners use cookies and
+    other technologies to improve your
+    experience, measure performance, and
+    tailor marketing.
+  cookiesacceptalltext: ACCEPT ALL
+  cookiesdeclinetext: REJECT ALL
+  cookiesmanagepreferencestext: CUSTOMIZE
+  cookieslinks:
+    - 
+      title: Privacy Policy
+      url: https://parts.uber.space/privacy-policy
+  cookiespreferencestitle: Cookie preferences
+  cookiespreferencestext: >
+    We and our partners use cookies and
+    other technologies to improve your
+    experience, measure performance, and
+    tailor marketing.
+  cookiepreferencesitems:
+    - 
+      title: Essential
+      value: >
+        Essential cookies enable basic functions
+        and are necessary for the proper
+        function of the website.
+      text: kirby,language
+    - 
+      title: Statistics
+      value: >
+        Statistics cookies collect information
+        anonymously. This information helps us
+        to understand how our visitors use our
+        website.
+      text: personio,hubspot
+    - 
+      title: External Media
+      value: >
+        Content from video platforms and social
+        media platforms is blocked by default.
+        If External Media cookies are accepted,
+        access to those contents no longer
+        requires manual consent.
+      text: >
+        facebook,googlemaps,instagram,openstreetmap,twitter,vimeo,youtube
+  cookiessavetext: SAVE
+
+----
+
+Products:
+
+- 
+  name: PartsOS Planning
+  slug: partsos-planning
+- 
+  name: PartsOS Fulfillment
+  slug: partsos-fulfillment
+- 
+  name: PartsOS Customs
+  slug: partsos-customs
+
+----
+
+Industries:
+
+- 
+  name: Machinery
+  slug: machinery
+- 
+  name: Plant Engineering
+  slug: plant-engineering
+- 
+  name: Woodworking Machinery
+  slug: woodworking-machinery
+- 
+  name: Tire Machinery
+  slug: tire-machinery
+- 
+  name: Mechanical Engineering
+  slug: mechanical-engineering
+- 
+  name: Thermoforming
+  slug: thermoforming
+- 
+  name: Packaging Technology
+  slug: packaging-technology
+
+----
+
+Partners: 
+
+----
+
+Categories:
+
+- 
+  name: News
+  slug: news
+- 
+  name: Blog
+  slug: blog
+- 
+  name: Whitepaper
+  slug: whitepaper
+
+----
+
+Blogproducts:
+
+- 
+  name: PartsCloud Planning
+  slug: partscloud-planning
+
+----
+
+Events:
+
+- 
+  date: 2025-03-21
+  author: Jonathan Frakes
+  title: Headline about a specific upcoming event
+  image:
+    - file://F256gWJ3Cb2hLh6M
+  link:
+    - 
+      url: https://google.com
+      target: _blank
+- 
+  date: 2025-02-17
+  author: Jonathan Frakes
+  title: Headline about a specific upcoming event
+  image:
+    - file://F256gWJ3Cb2hLh6M
+  link:
+    - 
+      url: https://google.com
+      target: _blank
+- 
+  date: 2025-03-02
+  author: Jonathan Frakes
+  title: Headline about a specific upcoming event
+  image:
+    - file://F256gWJ3Cb2hLh6M
+  link:
+    - 
+      url: https://google.com
+      target: _blank
+
+----
+
+Languages: 
+
+----
+
+Contactbutton: 
+
+----
+
+Twitter: twitter.com
+
+----
+
+Instagram: instagram.com

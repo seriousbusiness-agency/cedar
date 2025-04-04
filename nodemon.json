@@ -1,0 +1,8 @@
+{
+   "watch": [
+      "config/**/*",
+      "./.env",
+      "./jsconfig.js"
+   ],
+   "exec": "reset && source $HOME/.nvm/nvm.sh; nvm use; cross-env DEBUG=1 NODE_ENV=development NODE_NO_WARNINGS=1 webpack serve --config ./config/webpack.config.js"
+}

@@ -1,0 +1,5 @@
+Title: Career
+
+----
+
+Blocks: [{"content":{"title":"Don’t just work for one top mid-sized industrial company. Work for all.","description":"PartsCloud helps mid-sized industrial companies unlock their full potential. We keep machines, business relationships, and entire industries running – making them future-proof in the process.","cta":[],"screens":[{"image":["file://j4JBoBlobNWMFN0y"],"icon":[],"title":"","paragraph":""}]},"id":"59682837-a027-40a4-b140-ee76648d16cb","isHidden":false,"type":"heroVariant"},{"content":{"image":["file://HqmWN3LfnlpSoYDS"],"title":"We’re excited to meet you!","description":"Want to apply for one of our positions or interested even though none of the current openings seem like the perfect fit? Either way, we’d love to get to know you!","button":[{"title":"Contact","url":"https://google.com","target":"_blank"}]},"id":"4e3de06d-c0ed-43c6-b11b-db218882f932","isHidden":false,"type":"company"}]

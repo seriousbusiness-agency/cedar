@@ -1,0 +1,53 @@
+Title: Compliance and efficiency improvement through automated customs classification
+
+----
+
+Producttax: partsos-customs
+
+----
+
+Industrytax: mechanical-engineering
+
+----
+
+Partnertax: 
+
+----
+
+Logowhite: - file://D36KQWKDrwbhiQuF
+
+----
+
+Company: Coperion
+
+----
+
+Featuredimage: - file://QJvvADYdw907qGWc
+
+----
+
+Excerpt: Coperion automates customs classification with PartsCloud, enhancing master data quality and minimizing compliance risks through AI-driven processes.
+
+----
+
+Blocks: [{"content":{"title":"The challenge","text":"Our client Coperion is a specialist in bulk material handling and compounding technology for the plastics, chemical, and food industries. The company had limited resources for the customs classification of spare parts, leading to outdated customs tariff codes in the spare parts master data. This resulted in a high error rate and compliance risks. Legal requirements, particularly for dual-use goods screening, could not be reliably met. Additionally, the manual customs processing of 200 to 300 newly classified spare parts per week created a relatively high resource burden, which was unsustainable given the company’s planned expansion."},"id":"a12efe26-3bcb-492d-96c5-bd0f745dfa8c","isHidden":false,"type":"text"},{"content":{"title":"Our approach","text":"To make customs processes more efficient and secure, we introduced PartsOS Customs for AI-powered automated classification. At the same time, we cleansed existing spare parts master data in batches of 1,000 to correct inaccurate customs tariff codes. A continuous automated workflow was established for all newly added spare parts, processing 200 to 300 per week. Additionally, a systematic dual-use goods screening was implemented to ensure full compliance with legal requirements. To further optimize customs processing in the long term, we developed a scalable customs management system that lays the foundation for the future automation of customs processes for spare parts shipments."},"id":"0543137c-0ba0-4f5d-bfcb-95fafcc63573","isHidden":false,"type":"text"},{"content":{"title":"The result","text":"With AI-powered automated classification, errors were significantly reduced and compliance risks minimized. At the same time, master data quality improved significantly, ensuring that customs processes run more efficiently and in full compliance with regulations. The manual workload for customs classification was reduced to a minimum, freeing up internal resources and accelerating the overall process. Additionally, data-driven decision-making now enables a more precise customs strategy and creates the foundation for the full automation of customs processing."},"id":"6919ee86-4619-4cc6-931d-ec5d10d5f02a","isHidden":false,"type":"text"},{"content":{"items":[{"title":"30%","description":"reduction in error rate for customs tariff numbers"},{"title":"1,000+","description":"spare parts are continuously cleansed in batches"},{"title":"200-300","description":"new spare parts per week are automatically classified"}]},"id":"2af05929-2cb7-416e-a708-3b05b1d1d2df","isHidden":false,"type":"kpisUseCase"},{"content":{"backgroundcolor":"gray","slides":[{"logo":["file://bBRpGBz7vob8e4Wx"],"quote":"\"With PartsCloud, we have taken our customs processes to an entirely new level. AI-powered classification not only helps us eliminate errors and compliance risks but also lays the foundation for an efficient and future-proof customs processing system.\"","name":"Heiko Kost","position":"General Manager Operations","link":[],"image":["file://pE57czy1rW5ShOoy"]}]},"id":"da18cc68-e0ed-46f1-a78c-45e6673d64ad","isHidden":false,"type":"successStorySlider"}]
+
+----
+
+Logoblack: 
+
+----
+
+Product: customs
+
+----
+
+Industry: engineering
+
+----
+
+Partner: customs
+
+----
+
+Uuid: eJBFy9TTpnDOjtSw

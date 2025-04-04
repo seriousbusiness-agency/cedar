@@ -1,0 +1,800 @@
+Title: Data Privacy
+
+----
+
+Text:
+
+# Data Policy
+
+English version below
+
+## Datenschutzerklärung von **partscloud.com**
+
+Diese Website erhebt personenbezogene Daten von ihren Nutzern.
+
+Dieses Dokument kann zu Zwecken der Aufbewahrung über den Befehl „Drucken“ im Browser ausgedruckt werden.
+
+### Anbieter und Verantwortlicher
+
+PARTSCLOUD GmbH  
+Eichenstraße 20  
+72124 Pliezhausen
+
+**E-Mail-Adresse des Anbieters:** info@partscloud.de
+
+### Arten der erhobenen Daten
+
+Zu den personenbezogenen Daten, die diese Website selbstständig oder durch Dritte verarbeitet, gehören: Tracker; Nutzungsdaten; E-Mail; Telefonnummer; Vorname; Nachname; Name des Unternehmens; Während der Nutzung des Dienstes übermittelte Daten; Antworten auf Fragen; Klicks; Tastenanschläge; Aufzeichnungen des Bewegungssensors; Bewegungen der Maus; Scrollposition; Touch Events; Universally Unique Identifier (UUID).
+
+Vollständige Details zu jeder Art von verarbeiteten personenbezogenen Daten werden in den dafür vorgesehenen Abschnitten dieser Datenschutzerklärung oder punktuell durch Erklärungstexte bereitgestellt, die vor der Datenerhebung angezeigt werden.  
+Personenbezogene Daten können vom Nutzer freiwillig angegeben oder, im Falle von Nutzungsdaten, automatisch erhoben werden, wenn diese Website genutzt wird.  
+Sofern nicht anders angegeben, ist die Angabe aller durch diese Website angeforderten Daten obligatorisch. Weigert sich der Nutzer, die Daten anzugeben, kann dies dazu führen, dass diese Website dem Nutzer ihre Dienste nicht zur Verfügung stellen kann. In Fällen, in denen diese Website die Angabe personenbezogener Daten ausdrücklich als freiwillig bezeichnet, dürfen sich die Nutzer dafür entscheiden, diese Daten ohne jegliche Folgen für die Verfügbarkeit oder die Funktionsfähigkeit des Dienstes nicht anzugeben.  
+Nutzer, die sich darüber im Unklaren sind, welche personenbezogenen Daten obligatorisch sind, können sich an den Anbieter wenden.  
+Jegliche Verwendung von Cookies – oder anderer Tracking-Tools – durch diese Website oder Anbieter von Drittdiensten, die durch diese Website eingesetzt werden, dient dem Zweck, den vom Nutzer gewünschten Dienst zu erbringen, und allen anderen Zwecken, die im vorliegenden Dokumentund in der Cookie-Richtlinie beschrieben sind.
+
+Die Nutzer sind für alle personenbezogenen Daten Dritter verantwortlich, die durch diese Website beschafft, veröffentlicht oder weitergegeben werden.
+
+## Art und Ort der Datenverarbeitung
+
+### Verarbeitungsmethoden
+
+Der Anbieter verarbeitet die Nutzerdaten auf ordnungsgemäße Weise und ergreift angemessene Sicherheitsmaßnahmen, um den unbefugten Zugriff und die unbefugte Weiterleitung, Veränderung oder Vernichtung von Daten zu vermeiden.  
+Die Datenverarbeitung wird mittels Computern oder IT-basierten Systemen nach organisatorischen Verfahren und Verfahrensweisen durchgeführt, die gezielt auf die angegebenen Zwecke abstellen. Zusätzlich zum Verantwortlichen könnten auch andere Personen intern (Personalverwaltung, Vertrieb, Marketing, Rechtsabteilung, Systemadministratoren) oder extern – und in dem Fall soweit erforderlich, vom Verantwortlichen als Auftragsverarbeiter benannt (wie Anbieter technischer Dienstleistungen, Zustellunternehmen, Hosting-Anbieter, IT-Unternehmen oder Kommunikationsagenturen) - diese Website betreiben und damit Zugriff auf die Daten haben. Eine aktuelle Liste dieser Beteiligten kann jederzeit vom Anbieter verlangt werden.
+
+### Ort
+
+Die Daten werden in der Niederlassung des Anbieters und an allen anderen Orten, an denen sich die an der Datenverarbeitung beteiligten Stellen befinden, verarbeitet.  
+  
+Je nach Standort der Nutzer können Datenübertragungen die Übertragung der Daten des Nutzers in ein anderes Land als das eigene beinhalten. Um mehr über den Ort der Verarbeitung der übermittelten Daten zu erfahren, können die Nutzer den Abschnitt mit den ausführlichen Angaben zur Verarbeitung der personenbezogenen Daten konsultieren.
+
+### Speicherdauer
+
+Sofern in diesem Dokument nicht anderweitig festgelegt, werden personenbezogene Daten so lange verarbeitet und gespeichert, wie es der Zweck erfordert, zu dem sie erhoben wurden, und können ggf. aufgrund einer zu erfüllenden rechtlichen Verpflichtung oder basierend auf der Einwilligung des Nutzers auch länger aufbewahrt werden.
+
+Zwecke der Verarbeitung
+\-----------------------
+
+Personenbezogene Daten über den Nutzer werden erhoben, damit der Anbieter den Dienst erbringen und des Weiteren seinen gesetzlichen Verpflichtungen nachkommen, auf Durchsetzungsforderungen reagieren, seine Rechte und Interessen (oder die der Nutzer oder Dritter) schützen, böswillige oder betrügerische Aktivitäten aufdecken kann. Darüber hinaus werden Daten zu folgenden Zwecken erhoben: Analytik, Verwaltung von Nutzer-Datenbanken, Verwalten von Kontakten und Versenden von Nachrichten, Anzeigen von Inhalten externer Plattformen, Kontaktieren des Nutzers, Tag-Verwaltung, Registrierung und Anmeldung, Erfassung von datenschutzbezogenen Präferenzen, Verwaltung von Datenerfassung und Online-Umfragen, Werbung, Hosting und Backend-Infrastruktur und SPAM-Schutz.
+
+Nutzer können im Abschnitt “Ausführliche Angaben über die Verarbeitung personenbezogener Daten” dieses Dokuments weitere detaillierte Informationen zu diesen Verarbeitungszwecken und die zu den für den jeweiligen Zweck verwendeten personenbezogenen Daten vorfinden.
+
+ 
+
+Ausführliche Angaben über die Verarbeitung personenbezogener Daten
+\------------------------------------------------------------------
+
+Personenbezogene Daten werden zu folgenden Zwecken unter Inanspruchnahme folgender Dienstleistungen erhoben:
+
+### Analytik
+
+Mit den in diesem Abschnitt aufgeführten Dienstleistungen kann der Anbieter den Datenverkehr überwachen und analysieren sowie das Verhalten von Nutzern nachverfolgen.
+
+#### HubSpot Analytics (HubSpot, Inc.)
+
+HubSpot Analytics ist ein Analysedienst von HubSpot, Inc.
+
+Verarbeitete personenbezogene Daten: Nutzungsdaten; Tracker.
+
+Verarbeitungsort: Vereinigte Staaten – [Datenschutzerklärung](https://legal.hubspot.com/de/privacy-policy) – [Opt Out](mailto:privacy@hubspot.com) .
+
+#### Google Analytics (Google LLC)
+
+Google Analytics ist ein Webanalysedienst von Google LLC („Google“). Google verwendet die erhobenen Daten, um nachzuverfolgen und zu untersuchen, wie diese Website genutzt wird, Berichte über ihre Aktivitäten zu verfassen und diese gemeinsam mit anderen Google-Diensten zu nutzen.  
+Google kann die erhobenen Daten verwenden, um die Anzeigen seines eigenen Werbenetzwerks zu kontextualisieren und personalisieren.
+
+Verarbeitete personenbezogene Daten: Nutzungsdaten; Tracker.
+
+Verarbeitungsort: Vereinigte Staaten – [Datenschutzerklärung](https://policies.google.com/privacy) – [Opt Out](https://tools.google.com/dlpage/gaoptout?hl=de).
+
+#### Hotjar Form Analysis & Conversion Funnels (Hotjar Ltd.)
+
+Hotjar ist ein Analysedienst von Hotjar Ltd.  
+Hotjar berücksichtigt generische Nicht-Verfolgen-Header („Do Not Track”). Das bedeutet, dass der Browser dem Hotjar-Script untersagen kann, Daten des Nutzers zu sammeln. Diese Einstellung steht in allen großen Browsern zur Verfügung. Hotjars [Opt-out-Informationen sind hier](https://www.hotjar.com/legal/compliance/opt-out) zu finden.
+
+Verarbeitete personenbezogene Daten: Nutzungsdaten; Tracker.
+
+Verarbeitungsort: Malta – [Datenschutzerklärung](https://www.hotjar.com/legal/policies/privacy) – [Opt Out](https://www.hotjar.com/legal/compliance/opt-out).
+
+### Anzeigen von Inhalten externer Plattformen
+
+Mit dieser Art von Diensten können Nutzer sich Inhalte, die auf externen Plattformen gehostet werden, direkt über diese Website anzeigen lassen und mit ihnen interagieren.  
+Diese Art von Dienst kann möglicherweise immer noch Web-Traffic-Daten für die Seiten erheben, auf denen der Dienst installiert ist, auch wenn Nutzer ihn nicht verwenden.
+
+#### Google Fonts (Google LLC)
+
+Google Fonts ist ein von Google LLC bereitgestellter Service zur Visualisierung von Schriftarten, mit dem diese Website entsprechende Inhalte auf ihren Seiten einbinden kann.
+
+Verarbeitete personenbezogene Daten: Nutzungsdaten; Tracker.
+
+Verarbeitungsort: Vereinigte Staaten – [Datenschutzerklärung](https://policies.google.com/privacy).
+
+#### YouTube-Video-Widget (erweiterte Datenschutzmodus) (Google Ireland Limited)
+
+YouTube ist ein von Google Ireland Limited bereitgestellter Service zur Visualisierung von Videoinhalten, mit dem diese Website entsprechende Inhalte auf ihren Seiten einbinden kann.  
+Das Widget ist so eingestellt, dass YouTube keine Informationen und Cookies über Benutzer durch diese Website speichern kann, wenn das Video nicht abgespielt wird.
+
+Verarbeitete personenbezogene Daten: Nutzungsdaten; Tracker; Universally Unique Identifier (UUID).
+
+Verarbeitungsort: Irland – [Datenschutzerklärung](https://policies.google.com/privacy).
+
+#### Vimeo-Video (Vimeo, LLC)
+
+Vimeo ist ein von Vimeo, LLC bereitgestellter Visualisierungsservice für Videoinhalte, mit dem diese Website entsprechende Inhalte auf ihren Seiten einbinden kann.
+
+Verarbeitete personenbezogene Daten: Nutzungsdaten; Tracker.
+
+Verarbeitungsort: Vereinigte Staaten – [Datenschutzerklärung](https://vimeo.com/privacy).
+
+### Erfassung von datenschutzbezogenen Präferenzen
+
+Mit dieser Art von Dienst kann diese Website die Präferenzen der Nutzer in Bezug auf Erfassung, Verwendung und Verarbeitung ihrer personenbezogenen Daten erfassen und speichern, wie dies in den geltenden Datenschutzvorschriften vorgesehen ist.
+
+#### iubenda Cookie Solution (iubenda srl)
+
+iubenda Cookie Solution ermöglicht es dem Anbieter, die Präferenzen der Nutzer in Bezug auf die Verarbeitung personenbezogener Daten und insbesondere auf die Verwendung von Cookies und anderen Trackern über diese Website zu erfassen und zu speichern.
+
+Verarbeitete personenbezogene Daten: Tracker.
+
+Verarbeitungsort: Italien – [Datenschutzerklärung](https://www.iubenda.com/privacy-policy/70111689).
+
+#### iubenda Consent Solution (iubenda srl)
+
+iubenda Consent Solution ermöglicht die Speicherung und den Abruf von Aufzeichnungen über die Einwilligung der Nutzer in die Verarbeitung personenbezogener Daten sowie von Informationen und Präferenzen, die im Zusammenhang mit der erteilten Einwilligung angegeben wurden.  
+Zu diesem Zweck wird ein Tracker verwendet, der anstehende Informationen vorübergehend auf dem Gerät des Nutzers speichert, bis sie von der API verarbeitet werden. Der Tracker (eine Browserfunktion namens localStorage) wird zu diesem Zeitpunkt gelöscht.
+
+Verarbeitete personenbezogene Daten: Tracker; Während der Nutzung des Dienstes übermittelte Daten.
+
+Verarbeitungsort: Italien – [Datenschutzerklärung](https://www.iubenda.com/privacy-policy/30370247).
+
+### Hosting und Backend-Infrastruktur
+
+Diese Art von Diensten haben zum Zweck, Daten und Dateien zu hosten, damit diese Website verwaltet und verwendet werden kann. Des Weiteren können diese Angebote eine vorgefertigte Infrastruktur zur Verfügung stellen, die spezifische Funktionen oder ganze Bestandteile für diese Website abwickelt.
+
+Einige der unten aufgeführten Dienste können, müssen aber nicht, über geografisch verteilte Server funktionieren, was es schwierig macht, den tatsächlichen Speicherort der personenbezogenen Daten zu bestimmen.
+
+#### Umso Software Inc.
+
+Wir hosten unsere Website bei Umso Software Inc. Anbieter ist die Umso Software Inc., #900-2025 Willingdon Avenue, Burnaby, B.C., Canada V5C 0J3. Wenn Sie unsere Website besuchen, erfasst Umso verschiedene Logfiles inklusive Ihrer IP-Adressen.  
+  
+Umso ist ein Tool zum Erstellen und zum Hosten von Websites. Umso speichert Cookies oder sonstige Wiedererkennungstechnologien, die für die Darstellung der Seite, zur Bereitstellung bestimmter Webseitenfunktionen und zur Gewährleistung der Sicherheit erforderlich sind (notwendige Cookies).
+
+### Kontaktieren des Nutzers
+
+#### Kontaktformular (diese Website)
+
+Durch Ausfüllen des Kontaktformulars mit ihren Daten autorisieren Nutzer diese Website, ihre Angaben zu verwenden, um auf Bitten nach Informationen, Angebote oder sonstige Anfragen, die in der Kopfzeile des Formulars angegeben sind, zu reagieren.
+
+Verarbeitete personenbezogene Daten: E-Mail; Nachname; Telefonnummer; Vorname.
+
+#### Mailingliste oder Newsletter (diese Website)
+
+Durch Anmelden zur Mailingliste oder zum Newsletter wird die E-Mail-Adresse des Nutzers der Kontaktliste der Personen hinzugefügt, die möglicherweise E-Mail-Nachrichten mit gewerblichen oder verkaufsfördernden Informationen in Bezug auf diese Website erhalten. Darüber hinaus kann Ihre E-Mail-Adresse dieser Liste zugefügt werden, wenn Sie sich für diese Website angemeldet haben oder nachdem Sie einen Kauf vorgenommen haben.
+
+Verarbeitete personenbezogene Daten: E-Mail; Nachname; Name des Unternehmens; Vorname.
+
+### Registrierung und Anmeldung
+
+Mit der Registrierung oder Anmeldung berechtigen Nutzer diese Website, sie zu identifizieren und ihnen Zugriff auf spezifische Dienste zu gewähren.  
+Je nachdem, was im Folgenden angegeben ist, können Drittanbieter Registrierungs- und Anmeldedienste bereitstellen. In diesem Fall kann diese Website auf einige von diesen Drittanbietern gespeicherten Daten zu Registrierungs- oder Identifizierungszwecken zugreifen.  
+Einige der unten aufgeführten Dienste erheben möglicherweise personenbezogene Daten zu Targeting- und Profilingszwecken. Weitere Informationen dazu entnehmen Sie der Beschreibung eines jeden Dienstes.
+
+#### Bitly OAuth (Bitly, Inc.)
+
+Bitly OAuth ist ein Bitly, Inc. bereitgestellter Registrierungs- und Anmeldedienst, der mit dem Bitly-Dienst verbunden ist.
+
+Verarbeitete personenbezogene Daten: verschiedene Datenarten, wie in der Datenschutzerklärung des Dienstes beschrieben.
+
+Verarbeitungsort: Vereinigte Staaten – [Datenschutzerklärung](https://bitly.com/pages/privacy).
+
+### SPAM-Schutz
+
+Diese Art von Diensten analysieren den Datenverkehr, der über diese Website stattfindet und möglicherweise personenbezogene Daten von Nutzern enthält, um Teile des Datenverkehrs, Nachrichten und Inhalte, die als SPAM gelten, herauszufiltern.
+
+#### Google reCAPTCHA (Google Ireland Limited)
+
+Google reCAPTCHA ist ein SPAM-Schutz-Service von Google Ireland Limited.  
+Die Verwendung von reCAPTCHA unterliegt der [Datenschutzerklärung](https://www.google.com/intl/de/policies/privacy/) von Google und den [Nutzungsbedingungen](https://www.google.com/intl/de/policies/terms/).
+
+Verarbeitete personenbezogene Daten: Antworten auf Fragen; Aufzeichnungen des Bewegungssensors; Bewegungen der Maus; Klicks; Nutzungsdaten; Scrollposition; Tastenanschläge; Touch Events; Tracker.
+
+Verarbeitungsort: Irland – [Datenschutzerklärung](https://policies.google.com/privacy).
+
+### Tag-Verwaltung
+
+Diese Art von Diensten helfen dem Anbieter die Tags oder Skripte, die für diese Website benötigt werden, zentral zu verwalten.  
+Dies führt dazu, dass die Daten des Nutzers durch diese Dienste fließen und möglicherweise gespeichert werden.
+
+#### Google Tag Manager (Google LLC)
+
+Google Tag Manager ist ein von Google LLC bereitgestellter Dienst zur Verwaltung von Tags.
+
+Verarbeitete personenbezogene Daten: Nutzungsdaten; Tracker.
+
+Verarbeitungsort: Vereinigte Staaten – [Datenschutzerklärung](https://policies.google.com/privacy).
+
+### Verwalten von Kontakten und Versenden von Nachrichten
+
+Diese Art von Diensten ermöglichen die Verwaltung einer Datenbank mit E-Mail-Kontakten, Rufnummern oder jeglichen weiteren Kontaktinformationen, um mit dem Nutzer zu kommunizieren.  
+Die Dienste können auch Daten darüber sammeln, an welchem Datum und zu welcher Uhrzeit Nachricht vom Nutzer gelesen wurde, sowie darüber, wann der Nutzer mit eingehenden Nachrichten interagiert, beispielsweise durch Klicken auf Links, die darin enthalten sind.
+
+#### HubSpot Email (HubSpot, Inc.)
+
+HubSpot Email ist ein von HubSpot, Inc. bereitgestellter Service für die Verwaltung von E-Mail-Adressen und den Versand von Nachrichten.
+
+Verarbeitete personenbezogene Daten: E-Mail; Nutzungsdaten.
+
+Verarbeitungsort: Vereinigte Staaten – [Datenschutzerklärung](https://legal.hubspot.com/de/privacy-policy).
+
+### Verwaltung von Datenerfassung und Online-Umfragen
+
+Mit dieser Art von Diensten kann diese Website die Erstellung, Bereitstellung, Verwaltung, Verteilung und Analyse von Online-Formularen und Umfragen verwalten, um Daten von allen antwortenden Nutzern zu erfassen, zu speichern und wiederzuverwenden.  
+Die erfassten personenbezogenen Daten hängen von den Informationen ab, die von den Nutzern im entsprechenden Online-Formular abgefragt und zur Verfügung gestellt werden.
+
+Diese Dienste können mit einer Vielzahl von Drittanbieterdiensten integriert werden, um es dem Anbieter zu ermöglichen, mit den verarbeiteten Daten weitere Schritte zu unternehmen - z.B. Verwaltung von Kontakten, Versand von Nachrichten, Analytik, Werbung und Zahlungsabwicklung.
+
+#### Über eigene Online - Formulare übermittelte Daten (diese Website)
+
+Diese Website setzt Online - Formulare ein, um Daten von Nutzern zu erheben.
+
+Verarbeitete personenbezogene Daten: E-Mail; Nachname; Telefonnummer; Vorname.
+
+### Verwaltung von Nutzer-Datenbanken
+
+Diese Art von Diensten erlauben es dem Anbieter Nutzerprofile zu erstellen, indem sie zunächst die E-Mail-Adresse, den Namen oder sonstige Angaben verwenden, die der Nutzer an diese Website übermittelt hat, als auch das Nachverfolgen von Nutzeraktivitäten durch Analysefunktionalitäten. Diese personenbezogenen Daten können auch mit öffentlich zugänglichen Informationen über den Nutzer (wie Profile in sozialen Medien) abgeglichen und für den Aufbau eines persönlichen Profils verwendet werden, das der Anbieter anzeigen und nutzen kann, um diese Website zu verbessern.  
+Manche dieser Dienste können auch das Versenden von zeitlich abgestimmten Nachrichten an den Nutzer vorsehen, wie z.B. E-Mails, die diese Website mit bestimmten Aktionen verknüpft.
+
+#### HubSpot CRM (HubSpot, Inc.)
+
+HubSpot CRM ist ein Verwaltungsdienst für Nutzer-Datenbanken von HubSpot, Inc.
+
+Verarbeitete personenbezogene Daten: E-Mail; Nachname; Name des Unternehmens; Telefonnummer; Vorname.
+
+Verarbeitungsort: Vereinigte Staaten – [Datenschutzerklärung](https://legal.hubspot.com/de/privacy-policy).
+
+#### HubSpot Lead Management (HubSpot, Inc.)
+
+HubSpot Lead Management ist ein Verwaltungsdienst für Nutzer-Datenbanken von HubSpot, Inc.
+
+Verarbeitete personenbezogene Daten: E-Mail; Nachname; Telefonnummer; Vorname.
+
+Verarbeitungsort: Vereinigte Staaten – [Datenschutzerklärung](https://legal.hubspot.com/de/privacy-policy).
+
+### Werbung
+
+Diese Art von Diensten ermöglicht die Nutzung von Nutzerdaten zu Werbezwecken. Werbeansprachen werden in Form von Bannern und anderen Anzeigen über diese Website eingeblendet und möglicherweise verhaltensbasiert angepasst. Das heißt nicht, dass alle personenbezogenen Daten für diesen Zweck benutzt werden. Weitere Informationen und Nutzungsbedingungen sind nachfolgend aufgeführt.  
+Einige der nachfolgend aufgeführten Dienste verwenden möglicherweise Tracker ein, um Nutzer zu identifizieren, oder setzen sogenanntes Behavioural-Retargeting ein. Mit dieser Methode können auch Interessen und Surfverhaltensweisen von Nutzern identifiziert werden, die nicht über diese Website stattfinden, um Werbeanzeigen gezielt darauf abzustimmen. Weitere Informationen entnehmen Sie bitte den Datenschutzerklärungen der jeweiligen Dienste.  
+Dienste dieser Art bieten in der Regel die Möglichkeit, ein solches Tracking abzulehnen. Zusätzlich zu jeder Opt-Out-Funktion, die von den unten genannten Diensten angeboten werden, können Nutzer mehr darüber erfahren, wie sie generell interessenbasierte Werbung ablehnen können, und zwar im entsprechenden Abschnitt "Wie Sie interessenbasierte Werbung ablehnen können" in diesem Dokument.
+
+#### LinkedIn Ads (LinkedIn Ireland Unlimited Company)
+
+LinkedIn Ads ist ein Werbedienst der LinkedIn Ireland Unlimited Company.
+
+Verarbeitete personenbezogene Daten: Nutzungsdaten; Tracker.
+
+Verarbeitungsort: Irland – [Datenschutzerklärung](https://www.linkedin.com/legal/privacy-policy) – [Opt out](https://www.linkedin.com/legal/privacy-policy).
+
+Informationen zur Ablehnung von interessenbasierter Werbung
+\-----------------------------------------------------------
+
+Zusätzlich zu jeder Opt-Out-Funktion, die von den in diesem Dokument aufgelisteten Diensten zur Verfügung gestellt wird, können Nutzer im entsprechenden Abschnitt der Cookie-Richtlinie mehr darüber erfahren, wie sie generell interessenbasierte Werbung ablehnen können.
+
+ 
+
+Cookie-Richtlinie
+\-----------------
+
+Diese Website verwendet Tracker. Weitere Informationen ergeben sich aus der [Cookie-Richtlinie](//www.iubenda.com/privacy-policy/41880920/cookie-policy).
+
+Weitere Informationen für Nutzer
+\--------------------------------
+
+### Rechtsgrundlagen der Verarbeitung
+
+Der Anbieter darf personenbezogene Daten von Nutzern nur dann verarbeiten, wenn einer der folgenden Punkte zutrifft:
+
+*   Die Nutzer haben ihre Einwilligung für einen oder mehrere bestimmte Zwecke erteilt. Hinweis: In einigen Gesetzgebungen kann es dem Anbieter gestattet sein, personenbezogene Daten zu verarbeiten, bis der Nutzer einer solchen Verarbeitung widerspricht („Opt-out“), ohne sich auf die Einwilligung oder eine andere der folgenden Rechtsgrundlagen verlassen zu müssen. Dies gilt jedoch nicht, wenn die Verarbeitung personenbezogener Daten dem europäischen Datenschutzrecht unterliegt;
+*   die Datenerhebung ist für die Erfüllung eines Vertrages mit dem Nutzer und/oder für vorvertragliche Maßnahmen daraus erforderlich;
+*   die Verarbeitung ist für die Erfüllung einer rechtlichen Verpflichtung, der der Anbieter unterliegt, erforderlich;
+*   die Verarbeitung steht im Zusammenhang mit einer Aufgabe, die im öffentlichen Interesse oder in Ausübung hoheitlicher Befugnisse, die dem Anbieter übertragen wurden, durchgeführt wird;
+*   die Verarbeitung ist zur Wahrung der berechtigten Interessen des Anbieters oder eines Dritten erforderlich.
+
+In jedem Fall erteilt der Anbieter gerne Auskunft über die konkrete Rechtsgrundlage, auf der die Verarbeitung beruht, insbesondere darüber, ob die Angabe personenbezogener Daten eine gesetzliche oder vertragliche Verpflichtung oder eine Voraussetzung für den Abschluss eines Vertrages ist.
+
+### Weitere Informationen zur Verweildauer
+
+Sofern in diesem Dokument nicht anderweitig festgelegt, werden personenbezogene Daten so lange verarbeitet und gespeichert, wie es der Zweck erfordert, zu dem sie erhoben wurden, und können ggf. aufgrund einer zu erfüllenden rechtlichen Verpflichtung oder basierend auf der Einwilligung des Nutzers auch länger aufbewahrt werden.
+
+Daher gilt:
+
+*   Personenbezogene Daten, die zu Zwecken der Erfüllung eines zwischen dem Anbieter und dem Nutzer geschlossenen Vertrages erhoben werden, werden bis zur vollständigen Erfüllung dieses Vertrages gespeichert.
+*   Personenbezogene Daten, die zur Wahrung der berechtigten Interessen des Anbieters erhoben werden, werden so lange aufbewahrt, wie es zur Erfüllung dieser Zwecke erforderlich ist. Nutzer können nähere Informationen über die berechtigten Interessen des Anbieters in den entsprechenden Abschnitten dieses Dokuments oder durch Kontaktaufnahme zum Anbieter erhalten.
+
+Darüber hinaus ist es dem Anbieter gestattet, personenbezogene Daten für einen längeren Zeitraum zu speichern, wenn der Nutzer in eine solche Verarbeitung eingewilligt hat, solange die Einwilligung nicht widerrufen wird. Darüber hinaus kann der Anbieter verpflichtet sein, personenbezogene Daten für einen längeren Zeitraum aufzubewahren, wenn dies zur Erfüllung einer gesetzlichen Verpflichtung oder auf Anordnung einer Behörde erforderlich ist.  
+  
+Nach Ablauf der Aufbewahrungsfrist werden personenbezogene Daten gelöscht. Daher können das Auskunftsrecht, das Recht auf Löschung, das Recht auf Berichtigung und das Recht auf Datenübertragbarkeit nach Ablauf der Aufbewahrungsfrist nicht geltend gemacht werden.
+
+### Die Rechte der Nutzer
+
+Die Nutzer können bestimmte Rechte in Bezug auf ihre vom Anbieter verarbeiteten Daten ausüben.
+
+Nutzer haben im gesetzlich zulässigen Umfang insbesondere das Recht, Folgendes zu tun:
+
+*   **Die Einwilligungen jederzeit widerrufen.** Hat der Nutzer zuvor in die Verarbeitung personenbezogener Daten eingewilligt, so kann er die eigene Einwilligung jederzeit widerrufen.
+*   **Widerspruch gegen die Verarbeitung ihrer Daten einlegen.** Der Nutzer hat das Recht, der Verarbeitung seiner Daten zu widersprechen, wenn die Verarbeitung auf einer anderen Rechtsgrundlage als der Einwilligung erfolgt.
+*   **Auskunft bezüglich ihrer Daten erhalten.** Der Nutzer hat das Recht zu erfahren, ob die Daten vom Anbieter verarbeitet werden, über einzelne Aspekte der Verarbeitung Auskunft zu erhalten und eine Kopie der Daten zu erhalten.
+*   **Überprüfen und berichtigen lassen.** Der Nutzer hat das Recht, die Richtigkeit seiner Daten zu überprüfen und deren Aktualisierung oder Berichtigung zu verlangen.
+*   **Einschränkung der Verarbeitung ihrer Daten verlangen.** Die Nutzer haben das Recht, die Verarbeitung ihrer Daten einzuschränken. In diesem Fall wird der Anbieter die Daten zu keinem anderen Zweck als der Speicherung verarbeiten.
+*   **Löschung oder anderweitiges Entfernen der personenbezogenen Daten verlangen.** Die Nutzer haben das Recht, vom Anbieter die Löschung ihrer Daten zu verlangen.
+*   **Ihre Daten erhalten und an einen anderen Verantwortlichen übertragen lassen.** Der Nutzer hat das Recht, seine Daten in einem strukturierten, gängigen und maschinenlesbaren Format zu erhalten und, sofern technisch möglich, ungehindert an einen anderen Verantwortlichen übermitteln zu lassen.
+*   **Beschwerde einreichen.** Die Nutzer haben das Recht, eine Beschwerde bei der zuständigen Aufsichtsbehörde einzureichen.
+
+Die Nutzer haben auch das Recht, sich über die Rechtsgrundlage der Datenübermittlung ins Ausland oder an eine internationale Organisation, die dem Völkerrecht unterliegt oder von zwei oder mehr Ländern gegründet wurde, wie beispielsweise die UNO, sowie sich über die vom Anbieter ergriffenen Sicherheitsmaßnahmen zum Schutz ihrer Daten aufklären zu lassen.
+
+#### Details zum Widerspruchsrecht bezüglich der Verarbeitung
+
+**Werden personenbezogene Daten im öffentlichen Interesse, in Ausübung eines dem Anbieter übertragenen hoheitlichen Befugnisses oder zur Wahrung der berechtigten Interessen des Anbieters verarbeitet, kann der Nutzer dieser Verarbeitung widersprechen, indem er einen Rechtfertigungsgrund angibt, der sich auf seine besondere Situation bezieht.**
+
+**Nutzer werden darüber informiert, dass sie der Verarbeitung der personenbezogenen Daten für Direktwerbung jederzeit unentgeltlich ohne Angabe von Gründen widersprechen können. Widerspricht der Nutzer der Verarbeitung für Zwecke der Direktwerbung, so werden die personenbezogenen Daten nicht mehr für diese Zwecke verarbeitet. Ob der Anbieter personenbezogene Daten für Direktwerbungszwecke verarbeitet, können die Nutzer den entsprechenden Abschnitten dieses Dokuments entnehmen.**
+
+#### Wie die Rechte ausgeübt werden können
+
+Alle Anfragen zur Ausübung der Nutzerrechte können über die in diesem Dokument angegebenen Kontaktdaten an den Anbieter gerichtet werden. Anfragen können kostenlos gestellt werden und werden vom Anbieter so früh wie möglich, spätestens innerhalb eines Monats, beantwortet und den Nutzern die gesetzlich vorgeschriebenen Informationen zur Verfügung gestellt. Jede Berichtigung oder Löschung personenbezogener Daten oder die Einschränkung der Verarbeitung teilt der Anbieter allen Empfängern, denen personenbezogene Daten offengelegt wurden, mit, falls es welche gibt. Es sei denn, dies erweist sich als unmöglich oder ist mit einem unverhältnismäßigen Aufwand verbunden. Der Anbieter unterrichtet den Nutzer über diese Empfänger, wenn der Nutzer dies verlangt.
+
+ 
+
+Weitere Informationen über die Erhebung und Verarbeitung von Daten
+\------------------------------------------------------------------
+
+### Rechtliche Maßnahmen
+
+Die personenbezogenen Daten des Nutzers können vom Anbieter zu Zwecken der Rechtsdurchsetzung innerhalb oder in Vorbereitung gerichtlicher Verfahren verarbeitet werden, die sich daraus ergeben, dass diese Website oder die dazugehörigen Dienste nicht ordnungsgemäß genutzt wurden.  
+Der Nutzer erklärt, sich dessen bewusst zu sein, dass der Anbieter von den Behörden zur Herausgabe von personenbezogenen Daten verpflichtet werden könnte.
+
+### Weitere Informationen über die personenbezogenen Daten des Nutzers
+
+Zusätzlich zu den in dieser Datenschutzerklärung aufgeführten Informationen kann diese Website dem Nutzer auf Anfrage weitere kontextbezogene Informationen zur Verfügung stellen, die sich auf bestimmte Dienste oder auf die Erhebung und Verarbeitung personenbezogener Daten beziehen.
+
+### Systemprotokolle und Wartung
+
+Diese Website und die Dienste von Dritten können zu Betriebs- und Wartungszwecken Dateien erfassen, die die über diese Website stattfindende Interaktion aufzeichnen (Systemprotokolle), oder andere personenbezogene Daten (z. B. IP-Adresse) zu diesem Zweck verwenden.
+
+### Nicht in dieser Datenschutzerklärung enthaltene Informationen
+
+Weitere Informationen über die Erhebung oder Verarbeitung personenbezogener Daten können jederzeit vom Anbieter über die aufgeführten Kontaktangaben angefordert werden.
+
+### Änderungen dieser Datenschutzerklärung
+
+Der Anbieter behält sich vor, jederzeit Änderungen an dieser Datenschutzerklärung vorzunehmen, indem Nutzer auf dieser Seite und gegebenenfalls über diese Website und/oder - soweit technisch und rechtlich möglich – durch das Versenden einer Mitteilung über dem Anbieter vorliegende Kontaktdaten der Nutzer informiert werden. Nutzern wird daher nahegelegt, diese Seite regelmäßig aufzurufen und insbesondere das am Seitenende angegebene Datum der letzten Änderung zu prüfen.  
+  
+Soweit Änderungen eine auf der Einwilligung des Nutzers basierte Datennutzung betreffen, so wird der Anbieter - soweit erforderlich - eine neue Einwilligung einholen.
+
+### Begriffsbestimmungen und rechtliche Hinweise
+
+#### Personenbezogene Daten (oder Daten)
+
+Alle Informationen, durch die direkt oder in Verbindung mit weiteren Informationen die Identität einer natürlichen Person bestimmt wird oder werden kann.
+
+#### Nutzungsdaten
+
+Informationen, die diese Website (oder Dienste Dritter, die diese Website in Anspruch nimmt), automatisch erhebt, z. B.: die IP-Adressen oder Domain-Namen der Computer von Nutzern, die diese Website verwenden, die URI-Adressen (Uniform Resource Identifier), den Zeitpunkt der Anfrage, die Methode, die für die Übersendung der Anfrage an den Server verwendet wurde, die Größe der empfangenen Antwort-Datei, der Zahlencode, der den Status der Server-Antwort anzeigt (erfolgreiches Ergebnis, Fehler etc.), das Herkunftsland, die Funktionen des vom Nutzer verwendeten Browsers und Betriebssystems, die diversen Zeitangaben pro Aufruf (z. B. wie viel Zeit auf jeder Seite der Anwendung verbracht wurde) und Angaben über den Pfad, dem innerhalb einer Anwendung gefolgt wurde, insbesondere die Reihenfolge der besuchten Seiten, sowie sonstige Informationen über das Betriebssystem des Geräts und/oder die IT-Umgebung des Nutzers.
+
+#### Nutzer
+
+Die diese Website verwendende Person, die, soweit nicht anders bestimmt, mit dem Betroffenen übereinstimmt.
+
+#### Betroffener
+
+Die natürliche Person, auf die sich die personenbezogenen Daten beziehen.
+
+#### Auftragsverarbeiter (oder Auftragsbearbeiter)
+
+Natürliche oder juristische Person, Behörde, Einrichtung oder andere Stelle, die personenbezogene Daten im Auftrag des Verantwortlichen verarbeitet, wie in dieser Datenschutzerklärung beschrieben.
+
+#### Verantwortlicher (oder Anbieter, teilweise auch Eigentümer)
+
+Die natürliche oder juristische Person, Behörde, Einrichtung oder andere Stelle, die allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung personenbezogener Daten sowie die hierfür verwendeten Mittel entscheidet, einschließlich der Sicherheitsmaßnahmen bezüglich des sich auf diese Website beziehenden Betriebs und der Nutzung. Soweit nichts anderes angegeben ist, ist der Verantwortliche die natürliche oder juristische Person, über welche diese Website angeboten wird.
+
+#### Diese Website (oder diese Anwendung)
+
+Das Hardware- oder Software-Tool, mit dem die personenbezogenen Daten des Nutzers erhoben und verarbeitet werden.
+
+#### Dienst
+
+Der durch diese Website angebotene Dienst, wie in den entsprechenden AGBs (falls vorhanden) und auf dieser Website/Anwendung beschrieben.
+
+#### Europäische Union (oder EU)
+
+Sofern nicht anders angegeben, beziehen sich alle Verweise in diesem Dokument auf die Europäische Union auf alle derzeitigen Mitgliedstaaten der Europäischen Union und den Europäischen Wirtschaftsraum (EWR).
+
+#### Cookie
+
+Cookies sind Tracker, die aus einem kleinen, im Browser des Nutzers abgelegten Datensatz bestehen.
+
+#### Tracker
+
+Der Begriff Tracker bezeichnet jede Technologie – z. B. Cookies, eindeutige Identifizierungen, Web Beacons, eingebettete Skripts, E-Tags oder Fingerprinting – durch die Nutzer nachverfolgt werden können, z. B. indem der Zugriff auf oder die Speicherung von Informationen auf dem Nutzergerät ermöglicht wird.
+
+#### Rechtlicher Hinweis
+
+Diese Datenschutzerklärung bezieht sich ausschließlich auf diese Website, sofern in diesem Dokument nicht anders angegeben.
+
+Letzte Aktualisierung: 21. August 2023
+
+[iubenda](https://www.iubenda.com/de/generator-fuer-datenschutz-und-cookie-richtlinien) hostet diese Inhalte und erhebt nur [die personenbezogenen Daten](//www.iubenda.com/privacy-policy/45483222), die unbedingt erforderlich sind, um sie zur Verfügung zu stellen.
+
+#### SSL or TLS encryption
+
+For security reasons and to protect the transmission of confidential content, such as requests that you send to us as the site operator, this site uses SSL or TLS encryption. You can recognize an encrypted connection by the fact that the address line of the browser changes from "http://" to "https://" and by the lock symbol in your browser line.  
+If SSL or TLS encryption is activated, the data you transmit to us cannot be read by third parties.
+
+Data Policy
+\-----------
+
+Privacy Policy of **partscloud.com**
+====================================
+
+This Website collects some Personal Data from its Users.
+
+  
+
+This document can be printed for reference by using the print command in the settings of any browser.
+
+Owner and Data Controller
+\-------------------------
+
+PARTSCLOUD GmbH  
+Eichenstraße 20  
+72124 Pliezhausen
+
+**Owner contact email:** info@partscloud.de
+
+Types of Data collected
+\-----------------------
+
+Among the types of Personal Data that this Website collects, by itself or through third parties, there are: Trackers; Usage Data; email address; phone number; first name; last name; company name; Data communicated while using the service; answers to questions; clicks; keypress events; motion sensor events; mouse movements; scroll position; touch events; Universally unique identifier (UUID).
+
+Complete details on each type of Personal Data collected are provided in the dedicated sections of this privacy policy or by specific explanation texts displayed prior to the Data collection.  
+Personal Data may be freely provided by the User, or, in case of Usage Data, collected automatically when using this Website.  
+Unless specified otherwise, all Data requested by this Website is mandatory and failure to provide this Data may make it impossible for this Website to provide its services. In cases where this Website specifically states that some Data is not mandatory, Users are free not to communicate this Data without consequences to the availability or the functioning of the Service.  
+Users who are uncertain about which Personal Data is mandatory are welcome to contact the Owner.  
+Any use of Cookies – or of other tracking tools — by this Website or by the owners of third-party services used by this Website serves the purpose of providing the Service required by the User, in addition to any other purposes described in the present document and in the Cookie Policy.
+
+Users are responsible for any third-party Personal Data obtained, published or shared through this Website.
+
+Mode and place of processing the Data
+\-------------------------------------
+
+### Methods of processing
+
+The Owner takes appropriate security measures to prevent unauthorized access, disclosure, modification, or unauthorized destruction of the Data.  
+The Data processing is carried out using computers and/or IT enabled tools, following organizational procedures and modes strictly related to the purposes indicated. In addition to the Owner, in some cases, the Data may be accessible to certain types of persons in charge, involved with the operation of this Website (administration, sales, marketing, legal, system administration) or external parties (such as third-party technical service providers, mail carriers, hosting providers, IT companies, communications agencies) appointed, if necessary, as Data Processors by the Owner. The updated list of these parties may be requested from the Owner at any time.
+
+### Place
+
+The Data is processed at the Owner's operating offices and in any other places where the parties involved in the processing are located.  
+  
+Depending on the User's location, data transfers may involve transferring the User's Data to a country other than their own. To find out more about the place of processing of such transferred Data, Users can check the section containing details about the processing of Personal Data.
+
+### Retention time
+
+Unless specified otherwise in this document, Personal Data shall be processed and stored for as long as required by the purpose they have been collected for and may be retained for longer due to applicable legal obligation or based on the Users’ consent.
+
+The purposes of processing
+\--------------------------
+
+The Data concerning the User is collected to allow the Owner to provide its Service, comply with its legal obligations, respond to enforcement requests, protect its rights and interests (or those of its Users or third parties), detect any malicious or fraudulent activity, as well as the following: Analytics, User database management, Managing contacts and sending messages, Displaying content from external platforms, Contacting the User, Tag Management, Registration and authentication, Collection of privacy-related preferences, Managing data collection and online surveys, Advertising, Hosting and backend infrastructure and SPAM protection.
+
+For specific information about the Personal Data used for each purpose, the User may refer to the section “Detailed information on the processing of Personal Data”.
+
+Detailed information on the processing of Personal Data
+\-------------------------------------------------------
+
+Personal Data is collected for the following purposes and using the following services:
+
+### Advertising
+
+This type of service allows User Data to be utilized for advertising communication purposes. These communications are displayed in the form of banners and other advertisements on this Website, possibly based on User interests.  
+This does not mean that all Personal Data are used for this purpose. Information and conditions of use are shown below.  
+Some of the services listed below may use Trackers to identify Users or they may use the behavioral retargeting technique, i.e. displaying ads tailored to the User’s interests and behavior, including those detected outside this Website. For more information, please check the privacy policies of the relevant services.  
+Services of this kind usually offer the possibility to opt out of such tracking. In addition to any opt-out feature offered by any of the services below, Users may learn more on how to generally opt out of interest-based advertising within the dedicated section "How to opt-out of interest-based advertising" in this document.
+
+#### LinkedIn Ads (LinkedIn Ireland Unlimited Company)
+
+LinkedIn Ads is an advertising service provided by LinkedIn Ireland Unlimited Company.
+
+Personal Data processed: Trackers; Usage Data.
+
+Place of processing: Ireland – [Privacy Policy](https://www.linkedin.com/legal/privacy-policy) – [Opt out](https://www.linkedin.com/legal/privacy-policy).
+
+### Analytics
+
+The services contained in this section enable the Owner to monitor and analyze web traffic and can be used to keep track of User behavior.
+
+#### HubSpot Analytics (HubSpot, Inc.)
+
+HubSpot Analytics is an analytics service provided by HubSpot, Inc.
+
+Personal Data processed: Trackers; Usage Data.
+
+Place of processing: United States – [Privacy Policy](https://legal.hubspot.com/privacy-policy) – [Opt Out](mailto:privacy@hubspot.com) .
+
+#### Google Analytics (Google LLC)
+
+Google Analytics is a web analysis service provided by Google LLC (“Google”). Google utilizes the Data collected to track and examine the use of this Website, to prepare reports on its activities and share them with other Google services.  
+Google may use the Data collected to contextualize and personalize the ads of its own advertising network.
+
+Personal Data processed: Trackers; Usage Data.
+
+Place of processing: United States – [Privacy Policy](https://policies.google.com/privacy) – [Opt Out](https://tools.google.com/dlpage/gaoptout?hl=en).
+
+#### Hotjar Form Analysis & Conversion Funnels (Hotjar Ltd.)
+
+Hotjar is an analytics service provided by Hotjar Ltd.  
+Hotjar honors generic Do Not Track headers. This means your browser can tell its script not to collect any of your data. This is a setting that is available in all major browsers. Find Hotjar’s [opt-out information here](https://www.hotjar.com/legal/compliance/opt-out).
+
+Personal Data processed: Trackers; Usage Data.
+
+Place of processing: Malta – [Privacy Policy](https://www.hotjar.com/legal/policies/privacy) – [Opt Out](https://www.hotjar.com/legal/compliance/opt-out).
+
+### Collection of privacy-related preferences
+
+This type of service allows this Website to collect and store Users’ preferences related to the collection, use, and processing of their personal information, as requested by the applicable privacy legislation.
+
+#### iubenda Privacy Controls and Cookie Solution (iubenda srl)
+
+The iubenda Privacy Controls and Cookie Solution allows the Owner to collect and store Users’ preferences related to the processing of personal information, and in particular to the use of Cookies and other Trackers on this Website.
+
+Personal Data processed: Trackers.
+
+Place of processing: Italy – [Privacy Policy](https://www.iubenda.com/privacy-policy/36700132).
+
+#### iubenda Consent Database (iubenda srl)
+
+The iubenda Consent Database allows to store and retrieve records of Users’ consent to the processing of Personal Data, and information and preferences expressed in relation to the provided consent.  
+In order to do so, it makes use of a Tracker that temporarily stores pending information on the User’s device until it is processed by the API. The Tracker (a browser feature called localStorage) is at that point deleted.
+
+Personal Data processed: Data communicated while using the service; Trackers.
+
+Place of processing: Italy – [Privacy Policy](https://www.iubenda.com/privacy-policy/94654098).
+
+### Contacting the User
+
+#### Contact form (this Website)
+
+By filling in the contact form with their Data, the User authorizes this Website to use these details to reply to requests for information, quotes or any other kind of request as indicated by the form’s header.
+
+Personal Data processed: email address; first name; last name; phone number.
+
+#### Mailing list or newsletter (this Website)
+
+By registering on the mailing list or for the newsletter, the User’s email address will be added to the contact list of those who may receive email messages containing information of commercial or promotional nature concerning this Website. Your email address might also be added to this list as a result of signing up to this Website or after making a purchase.
+
+Personal Data processed: company name; email address; first name; last name.
+
+### Displaying content from external platforms
+
+This type of service allows you to view content hosted on external platforms directly from the pages of this Website and interact with them.  
+This type of service might still collect web traffic data for the pages where the service is installed, even when Users do not use it.
+
+#### Google Fonts (Google LLC)
+
+Google Fonts is a typeface visualization service provided by Google LLC that allows this Website to incorporate content of this kind on its pages.
+
+Personal Data processed: Trackers; Usage Data.
+
+Place of processing: United States – [Privacy Policy](https://policies.google.com/privacy).
+
+#### YouTube video widget (Privacy Enhanced Mode) (Google Ireland Limited)
+
+YouTube is a video content visualization service provided by Google Ireland Limited that allows this Website to incorporate content of this kind on its pages.  
+This widget is set up in a way that ensures that YouTube won't store information and cookies about Users on this Website unless they play the video.
+
+Personal Data processed: Trackers; Universally unique identifier (UUID); Usage Data.
+
+Place of processing: Ireland – [Privacy Policy](https://policies.google.com/privacy).
+
+#### Vimeo video (Vimeo, LLC)
+
+Vimeo is a video content visualization service provided by Vimeo, LLC that allows this Website to incorporate content of this kind on its pages.
+
+Personal Data processed: Trackers; Usage Data.
+
+Place of processing: United States – [Privacy Policy](https://vimeo.com/privacy).
+
+### Hosting and backend infrastructure
+
+This type of service has the purpose of hosting Data and files that enable this Website to run and be distributed as well as to provide a ready-made infrastructure to run specific features or parts of this Website.
+
+Some services among those listed below, if any, may work through geographically distributed servers, making it difficult to determine the actual location where the Personal Data are stored.
+
+#### Umso Software Inc.
+
+Wir hosten unsere Website bei Umso Software Inc. Anbieter ist die Umso Software Inc., #900-2025 Willingdon Avenue, Burnaby, B.C., Canada V5C 0J3. Wenn Sie unsere Website besuchen, erfasst Umso verschiedene Logfiles inklusive Ihrer IP-Adressen.  
+  
+Umso ist ein Tool zum Erstellen und zum Hosten von Websites. Umso speichert Cookies oder sonstige Wiedererkennungstechnologien, die für die Darstellung der Seite, zur Bereitstellung bestimmter Webseitenfunktionen und zur Gewährleistung der Sicherheit erforderlich sind (notwendige Cookies).
+
+### Managing contacts and sending messages
+
+This type of service makes it possible to manage a database of email contacts, phone contacts or any other contact information to communicate with the User.  
+These services may also collect data concerning the date and time when the message was viewed by the User, as well as when the User interacted with it, such as by clicking on links included in the message.
+
+#### HubSpot Email (HubSpot, Inc.)
+
+HubSpot Email is an email address management and message sending service provided by HubSpot, Inc.
+
+Personal Data processed: email address; Usage Data.
+
+Place of processing: United States – [Privacy Policy](https://legal.hubspot.com/privacy-policy).
+
+### Managing data collection and online surveys
+
+This type of service allows this Website to manage the creation, deployment, administration, distribution and analysis of online forms and surveys in order to collect, save and reuse Data from any responding Users.  
+The Personal Data collected depend on the information asked and provided by the Users in the corresponding online form.
+
+These services may be integrated with a wide range of third-party services to enable the Owner to take subsequent steps with the Data processed - e.g. managing contacts, sending messages, analytics, advertising and payment processing.
+
+#### Data provided via online forms, managed directly (this Website)
+
+This Website makes use of online forms that can be used to collect Data about Users.
+
+Personal Data processed: email address; first name; last name; phone number.
+
+### Registration and authentication
+
+By registering or authenticating, Users allow this Website to identify them and give them access to dedicated services.  
+Depending on what is described below, third parties may provide registration and authentication services. In this case, this Website will be able to access some Data, stored by these third-party services, for registration or identification purposes.  
+Some of the services listed below may also collect Personal Data for targeting and profiling purposes; to find out more, please refer to the description of each service.
+
+#### Bitly OAuth (Bitly, Inc.)
+
+Bitly OAuth is a registration and authentication service provided by Bitly, Inc. and is connected to the Bitly service.
+
+Personal Data processed: various types of Data as specified in the privacy policy of the service.
+
+Place of processing: United States – [Privacy Policy](https://bitly.com/pages/privacy).
+
+### SPAM protection
+
+This type of service analyzes the traffic of this Website, potentially containing Users' Personal Data, with the purpose of filtering it from parts of traffic, messages and content that are recognized as SPAM.
+
+#### Google reCAPTCHA (Google Ireland Limited)
+
+Google reCAPTCHA is a SPAM protection service provided by Google Ireland Limited.  
+The use of reCAPTCHA is subject to the Google [privacy policy](https://www.google.com/policies/privacy/) and [terms of use](https://www.google.com/intl/en/policies/terms/).
+
+Personal Data processed: answers to questions; clicks; keypress events; motion sensor events; mouse movements; scroll position; touch events; Trackers; Usage Data.
+
+Place of processing: Ireland – [Privacy Policy](https://policies.google.com/privacy).
+
+### Tag Management
+
+This type of service helps the Owner to manage the tags or scripts needed on this Website in a centralized fashion.  
+This results in the Users' Data flowing through these services, potentially resulting in the retention of this Data.
+
+#### Google Tag Manager (Google LLC)
+
+Google Tag Manager is a tag management service provided by Google LLC.
+
+Personal Data processed: Trackers; Usage Data.
+
+Place of processing: United States – [Privacy Policy](https://policies.google.com/privacy).
+
+### User database management
+
+This type of service allows the Owner to build user profiles by starting from an email address, a personal name, or other information that the User provides to this Website, as well as to track User activities through analytics features. This Personal Data may also be matched with publicly available information about the User (such as social networks' profiles) and used to build private profiles that the Owner can display and use for improving this Website.  
+Some of these services may also enable the sending of timed messages to the User, such as emails based on specific actions performed on this Website.
+
+#### HubSpot CRM (HubSpot, Inc.)
+
+HubSpot CRM is a User database management service provided by HubSpot, Inc.
+
+Personal Data processed: company name; email address; first name; last name; phone number.
+
+Place of processing: United States – [Privacy Policy](https://legal.hubspot.com/privacy-policy).
+
+#### HubSpot Lead Management (HubSpot, Inc.)
+
+HubSpot Lead Management is a User database management service provided by HubSpot, Inc.
+
+Personal Data processed: email address; first name; last name; phone number.
+
+Place of processing: United States – [Privacy Policy](https://legal.hubspot.com/privacy-policy).
+
+Information on opting out of interest-based advertising
+\-------------------------------------------------------
+
+In addition to any opt-out feature provided by any of the services listed in this document, Users may learn more on how to generally opt out of interest-based advertising within the dedicated section of the Cookie Policy.
+
+Cookie Policy
+\-------------
+
+This Website uses Trackers. To learn more, Users may consult the [Cookie Policy](//www.iubenda.com/privacy-policy/10963568/cookie-policy).
+
+Additional information about Data collection and processing
+\-----------------------------------------------------------
+
+### Legal action
+
+The User's Personal Data may be used for legal purposes by the Owner in Court or in the stages leading to possible legal action arising from improper use of this Website or the related Services.  
+The User declares to be aware that the Owner may be required to reveal personal data upon request of public authorities.
+
+### Additional information about User's Personal Data
+
+In addition to the information contained in this privacy policy, this Website may provide the User with additional and contextual information concerning particular Services or the collection and processing of Personal Data upon request.
+
+### System logs and maintenance
+
+For operation and maintenance purposes, this Website and any third-party services may collect files that record interaction with this Website (System logs) or use other Personal Data (such as the IP Address) for this purpose.
+
+### Information not contained in this policy
+
+More details concerning the collection or processing of Personal Data may be requested from the Owner at any time. Please see the contact information at the beginning of this document.
+
+### Changes to this privacy policy
+
+The Owner reserves the right to make changes to this privacy policy at any time by notifying its Users on this page and possibly within this Website and/or - as far as technically and legally feasible - sending a notice to Users via any contact information available to the Owner. It is strongly recommended to check this page often, referring to the date of the last modification listed at the bottom.  
+  
+Should the changes affect processing activities performed on the basis of the User’s consent, the Owner shall collect new consent from the User, where required.
+
+### Definitions and legal references
+
+#### Personal Data (or Data)
+
+Any information that directly, indirectly, or in connection with other information — including a personal identification number — allows for the identification or identifiability of a natural person.
+
+#### Usage Data
+
+Information collected automatically through this Website (or third-party services employed in this Website), which can include: the IP addresses or domain names of the computers utilized by the Users who use this Website, the URI addresses (Uniform Resource Identifier), the time of the request, the method utilized to submit the request to the server, the size of the file received in response, the numerical code indicating the status of the server's answer (successful outcome, error, etc.), the country of origin, the features of the browser and the operating system utilized by the User, the various time details per visit (e.g., the time spent on each page within the Application) and the details about the path followed within the Application with special reference to the sequence of pages visited, and other parameters about the device operating system and/or the User's IT environment.
+
+#### User
+
+The individual using this Website who, unless otherwise specified, coincides with the Data Subject.
+
+#### Data Subject
+
+The natural person to whom the Personal Data refers.
+
+#### Data Processor (or Processor)
+
+The natural or legal person, public authority, agency or other body which processes Personal Data on behalf of the Controller, as described in this privacy policy.
+
+#### Data Controller (or Owner)
+
+The natural or legal person, public authority, agency or other body which, alone or jointly with others, determines the purposes and means of the processing of Personal Data, including the security measures concerning the operation and use of this Website. The Data Controller, unless otherwise specified, is the Owner of this Website.
+
+#### This Website (or this Application)
+
+The means by which the Personal Data of the User is collected and processed.
+
+#### Service
+
+The service provided by this Website as described in the relative terms (if available) and on this site/application.
+
+#### European Union (or EU)
+
+Unless otherwise specified, all references made within this document to the European Union include all current member states to the European Union and the European Economic Area.
+
+#### Cookie
+
+Cookies are Trackers consisting of small sets of data stored in the User's browser.
+
+#### Tracker
+
+Tracker indicates any technology - e.g Cookies, unique identifiers, web beacons, embedded scripts, e-tags and fingerprinting - that enables the tracking of Users, for example by accessing or storing information on the User’s device.
+
+#### Legal information
+
+This privacy policy relates solely to this Website, if not stated otherwise within this document.
+
+Latest update: August 21, 2023
+
+[iubenda](https://www.iubenda.com/en/privacy-and-cookie-policy-generator) hosts this content and only collects [the Personal Data strictly necessary](//www.iubenda.com/privacy-policy/65675001) for it to be provided.
+
+#### SSL or TLS encryption
+
+For security reasons and to protect the transmission of confidential content, such as requests that you send to us as the site operator, this site uses SSL or TLS encryption. You can recognize an encrypted connection by the fact that the address line of the browser changes from "http://" to "https://" and by the lock symbol in your browser line.  
+If SSL or TLS encryption is activated, the data you transmit to us cannot be read by third parties.
+
+----
+
+Uuid: W2GKAfNNJKwrr0hL

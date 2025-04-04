@@ -1,0 +1,238 @@
+@use '../core/fonts' as *;
+@use '../utils/functions' as *;
+@use '../utils/mixins' as *;
+@use '../utils/easings' as *;
+
+.tabs {
+	padding: rem(80) rem(16);
+	display: flex;
+	flex-direction: column;
+	gap: rem(60);
+
+	@include breakpoint(desktop) {
+		padding: rem(96) rem(48) rem(64);
+	}
+
+	&__heading {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		gap: rem(24);
+	}
+
+	&__title {
+		max-width: rem(892);
+
+		@include text(h2);
+	}
+
+	&__paragraph {
+		max-width: rem(572);
+		color: var(--dark-gray-60);
+
+		@include text(body);
+
+		@include breakpoint(desktop) {
+			@include text(body-large);
+		}
+	}
+
+	&__items {
+		display: flex;
+		flex-direction: column;
+		gap: rem(25);
+		border-radius: rem(10);
+		max-width: rem(550);
+		width: 100%;
+		position: relative;
+
+		@include breakpoint(desktop) {
+			background-color: var(--white);
+			padding: rem(30) rem(36);
+		}
+	}
+
+	&__item {
+		cursor: pointer;
+
+		@include breakpoint-max(desktop) {
+			border-radius: rem(10);
+			background-color: var(--white);
+			padding: rem(24);
+		}
+
+		&-wrapper {
+			position: relative;
+
+			@include breakpoint(desktop) {
+				border-radius: rem(10) rem(10) 0 0;
+			}
+
+			&:not(:last-child) {
+				padding-bottom: rem(25);
+				border-bottom: 1px solid var(--light-gray);
+
+				@include breakpoint(desktop) {
+					border-radius: rem(10) rem(10) 0 0;
+				}
+			}
+
+			&::before {
+				position: absolute;
+				left: 0;
+				width: 100%;
+				height: 1px;
+				background-color: var(--dark-gray-60);
+				transform-origin: left;
+				scale: var(--p, 0) 1;
+				transform: translateZ(0);
+				will-change: transform;
+				bottom: 0;
+
+				@include breakpoint(desktop) {
+					content: '';
+				}
+			}
+		}
+
+		&__top {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			transition: margin 1s $ease;
+
+			@include breakpoint-max(desktop) {
+				margin-bottom: rem(36);
+			}
+		}
+
+		&__logo {
+			height: rem(36);
+			width: auto;
+
+			img {
+				height: 100%;
+				width: auto;
+			}
+		}
+
+		&__icon {
+			width: rem(26);
+			height: rem(26);
+			background-image: url("data:image/svg+xml,%3Csvg width='26' height='26' viewBox='0 0 26 26' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect x='0.5' y='0.5' width='25' height='25' rx='12.5' stroke='%23343331' stroke-opacity='0.3'/%3E%3Cpath d='M11.5 18L16.5 13L11.5 8' stroke='%23343331' stroke-width='1.15385' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+			background-position: center;
+			background-size: contain;
+			background-repeat: no-repeat;
+
+			@include breakpoint-max(desktop) {
+				display: none;
+			}
+		}
+
+		&__heading {
+			display: flex;
+			flex-direction: column;
+			gap: rem(24);
+
+			// max-width: rem(426);
+
+			// max-height: 0;
+			transition:
+				max-height 1s $ease,
+				margin 1s $ease;
+
+			@include breakpoint(desktop) {
+				overflow: hidden;
+			}
+		}
+
+		&__title {
+			letter-spacing: -0.05em !important;
+
+			@include text(h4-24);
+		}
+
+		&__paragraph {
+			transition: max-height 0.65s $ease-out-quart;
+
+			@include breakpoint(desktop) {
+				max-height: 0;
+				overflow: hidden;
+			}
+
+			p {
+				// line-height: 1.4 !important;
+				color: var(--dark-gray-60);
+
+				@include text(body);
+			}
+		}
+
+		&__link {
+			--button-font-size: #{rem(14)};
+
+			width: fit-content;
+			color: var(--dark-gray);
+			margin-bottom: 0.15em;
+			position: relative;
+
+			@include text(button);
+
+			&::after {
+				content: '';
+				position: absolute;
+				bottom: rem(-8);
+				left: 0;
+				width: 100%;
+				height: 1px;
+				background-color: var(--dark-gray);
+				transform: translateZ(0);
+				transform-origin: left;
+				transition: scale 0.5s $link-ease;
+			}
+
+			&:hover::after {
+				transform-origin: right;
+				scale: 0 1;
+			}
+		}
+
+		&__image {
+			width: calc(100% + rem(24));
+			height: rem(220);
+			pointer-events: none;
+
+			@include breakpoint(desktop) {
+				position: absolute;
+				top: 0;
+				left: 0;
+				mask-image: radial-gradient(circle, rgb(0 0 0 / 0%) var(--i, 0%), rgb(0 0 0 / 100%) var(--f, 0%));
+				translate: calc(rem(550) + rem(16)) 0;
+				width: rem(778);
+				height: rem(533);
+			}
+
+			img {
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+				border-radius: rem(10) 0 0 rem(10);
+
+				@include breakpoint(desktop) {
+					border-radius: rem(10);
+				}
+			}
+		}
+
+		&:nth-child(1) > figure {
+			z-index: 2;
+		}
+
+		&.active {
+			.tabs__item__top {
+				margin-bottom: rem(36);
+			}
+		}
+	}
+}

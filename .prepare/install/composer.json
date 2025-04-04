@@ -1,0 +1,39 @@
+{
+    "name": "webpack/webpack_boilerplate",
+    "autoload": {
+        "psr-4": {
+            "Webpack\\WebpackBoilerplate\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "André Ponce",
+            "email": "andreluisponce@gmail.com"
+        }
+    ],
+    "require": {
+        "johnpbloch/wordpress": "^6.4.2"
+    },
+    "extra": {
+      "installer-paths": {
+         "wp-content/plugins/{$name}/": [
+            "type:wordpress-plugin"
+         ],
+         "wp-content/themes/{$name}/": [
+            "type:wordpress-theme"
+         ]
+      },
+      "wordpress-install-dir": "./build/wp"
+   },
+   "repositories": [
+      {
+          "type": "composer",
+          "url": "https://wpackagist.org"
+      }
+   ],
+    "config": {
+        "allow-plugins": {
+            "johnpbloch/wordpress-core-installer": true
+        }
+    }
+}

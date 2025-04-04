@@ -1,0 +1,25 @@
+@use '../core/fonts' as *;
+@use '../utils/functions' as *;
+@use '../utils/mixins' as *;
+@use '../utils/easings' as *;
+
+.error {
+	&__hero {
+		min-height: 100vh;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: rem(24);
+
+		h1 {
+			@include text(h1);
+		}
+
+		p {
+			color: var(--dark-gray-70);
+
+			@include text(h5);
+		}
+	}
+}

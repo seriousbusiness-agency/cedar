@@ -1,0 +1,13 @@
+Title: Resources
+
+----
+
+Blocks: [{"content":{"title":"Our industry never stands still.","description":"Stay up to date with industry insights, the latest news on PartsCloud, expert articles, and upcoming events.","button":[],"backgroundcolor":"gray","mediatype":"image","imagesize":"small","image":["file://9U2CXVWsDpB8HyTI"],"extendimage":""},"id":"259137f6-d8d8-4041-935d-acdd28039d35","isHidden":false,"type":"hero"},{"content":{"title":"Our topics.","description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."},"id":"eed7d600-4cd3-4702-ba18-99de944565a2","isHidden":false,"type":"blogListing"},{"content":{"title":"The event calendar."},"id":"22470649-cdb0-448c-bb58-3291f37df381","isHidden":false,"type":"events"}]
+
+----
+
+Ishidden: false
+
+----
+
+Uuid: EyUuZZAFsUzdExD5

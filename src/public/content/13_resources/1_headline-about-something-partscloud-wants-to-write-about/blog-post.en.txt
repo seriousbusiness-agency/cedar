@@ -1,0 +1,41 @@
+Title: Headline about something PartsCloud wants to write about
+
+----
+
+Categorytax: news, blog, whitepaper
+
+----
+
+Producttax: customs, fulfillment, inventory
+
+----
+
+Featuredimage: - file://WFxsHxO6jc7mSLdA
+
+----
+
+Imagedescription: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+----
+
+Date: 2025-02-28
+
+----
+
+Author: Jonathan Frakes
+
+----
+
+Excerpt: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+
+----
+
+Blocks: [{"content":{"title":"It all started with changing perspectives","bigtext":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.","text":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. \n\nNeque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"},"id":"2753b1af-5e5b-4d28-805c-01d949e0ea90","isHidden":false,"type":"text"},{"content":{"position":"left","icon":[],"subtitle":"","title":"dasdsadasdsa","description":"laskjSA","image":["file://WFxsHxO6jc7mSLdA"]},"id":"691eb012-91ab-4987-9047-4eadbfce7ec8","isHidden":false,"type":"sideText"},{"content":{"position":"left","icon":["file://WFxsHxO6jc7mSLdA"],"subtitle":"dasdsa","title":"dasdsadasdsa","description":"laskjSA","image":["file://WFxsHxO6jc7mSLdA"]},"id":"c3e2b6d6-f2ad-4bef-bd60-389bff2f98c4","isHidden":false,"type":"sideText"},{"content":{"image":["file://WFxsHxO6jc7mSLdA"],"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."},"id":"7758402b-5990-4525-a118-bb25b5a71d6a","isHidden":false,"type":"image"},{"content":{"logo":["file://0eBMGXTrQXt8hbhi"],"quote":"“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.”","image":["file://WFxsHxO6jc7mSLdA"],"name":"Jonathan Frakes","position":"Job Title"},"id":"1de31df2-5814-48a0-972b-b0bd5e5a39f6","isHidden":false,"type":"quote"},{"content":{"title":"It all started with changing perspectives","description":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.","images":[{"image":["file://WFxsHxO6jc7mSLdA"]},{"image":["file://WFxsHxO6jc7mSLdA"]},{"image":["file://WFxsHxO6jc7mSLdA"]},{"image":["file://WFxsHxO6jc7mSLdA"]}]},"id":"de0a8f3c-f7f7-4bb9-b581-86f2c45abd38","isHidden":false,"type":"gallery"},{"content":{"thumbnail":["file://WFxsHxO6jc7mSLdA"],"video":["file://sLXvfRvyYX0Pj6sI"]},"id":"71e6c7a3-770a-4c1e-b930-fbddb111e97a","isHidden":false,"type":"articleVideo"}]
+
+----
+
+Text: 
+
+----
+
+Uuid: WEN4TTLUoqbh8M5p

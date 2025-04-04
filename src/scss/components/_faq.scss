@@ -1,0 +1,125 @@
+@use '../core/fonts' as *;
+@use '../utils/functions' as *;
+@use '../utils/mixins' as *;
+@use '../utils/easings' as *;
+
+.faq {
+	display: flex;
+	flex-direction: column;
+	gap: rem(60);
+	padding: rem(80) rem(16);
+
+	@include breakpoint(desktop) {
+		gap: rem(40);
+		padding: rem(120) rem(48) rem(34);
+	}
+
+	&__title {
+		@include text(h3);
+	}
+
+	&__items {
+		display: flex;
+		gap: rem(20);
+
+		@include breakpoint-max(desktop) {
+			flex-direction: column;
+		}
+
+		@include breakpoint(desktop) {
+			gap: rem(46);
+		}
+
+		&-wrapper {
+			flex-basis: calc(50% - rem(23));
+			display: flex;
+			flex-direction: column;
+			gap: rem(20);
+
+			@include breakpoint(desktop) {
+				gap: rem(29);
+			}
+		}
+	}
+
+	&__item {
+		border-top: 1px solid var(--mid-gray);
+		position: relative;
+		padding-top: rem(20);
+
+		@include breakpoint(desktop) {
+			padding-top: rem(29);
+		}
+
+		&__title {
+			position: relative;
+			cursor: pointer;
+			transition: margin 0.65s $ease-out-quart;
+
+			@include text(h5);
+
+			@include breakpoint(desktop) {
+				--font-weight: 500;
+
+				@include text(body-large);
+			}
+
+			span {
+				position: absolute;
+				top: 50%;
+				right: 0;
+				translate: 0 -50%;
+				width: rem(32);
+				height: rem(32);
+				border: 1px solid var(--mid-gray);
+				border-radius: rem(6);
+
+				&::before,
+				&::after {
+					content: '';
+					position: absolute;
+					top: 50%;
+					left: 50%;
+					translate: -50% -50%;
+					width: rem(9);
+					height: rem(1);
+					background-color: black;
+					transition: scale 0.65s $ease-out-quart;
+				}
+
+				&::after {
+					rotate: 90deg;
+				}
+			}
+		}
+
+		&__content {
+			max-height: 0;
+			overflow: hidden;
+			transition: max-height 0.65s $ease-out-quart;
+
+			p {
+				@include text(body);
+
+				@include breakpoint-max(desktop) {
+					max-width: rem(287);
+				}
+			}
+		}
+
+		&.active {
+			.faq__item__title {
+				margin-bottom: rem(12);
+
+				span::after {
+					scale: 0 1;
+				}
+			}
+		}
+	}
+
+	&--white {
+		background-color: var(--white);
+		padding-bottom: rem(100);
+	}
+}

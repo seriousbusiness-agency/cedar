@@ -1,0 +1,297 @@
+@use '../core/fonts' as *;
+@use '../utils/functions' as *;
+@use '../utils/mixins' as *;
+@use '../utils/easings' as *;
+
+.cookieconsent {
+	position: fixed;
+	max-width: calc(100% - var(--global-padding) * 2);
+	z-index: 999;
+	bottom: var(--global-padding);
+	right: var(--global-padding);
+	color: var(--black-60);
+
+	&__wrapper {
+		background-color: var(--white);
+
+		// padding: var(--global-padding);
+		border-radius: rem(16);
+		overflow: hidden;
+		transition: 0.7s opacity $ease-in-quart 0s;
+	}
+
+	h3 {
+		color: var(--black);
+
+		@include text(h4);
+	}
+
+	p {
+		@include text(body-small);
+	}
+
+	button {
+		font-size: rem(14) !important;
+
+		@include text(button);
+
+		&.accept-all-bt {
+			background-color: var(--purple);
+			border: none;
+
+			&::before,
+			&::after {
+				display: none;
+			}
+		}
+
+		&.full {
+			flex-basis: 100%;
+		}
+	}
+
+	header {
+		position: relative;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		gap: rem(8);
+
+		@include breakpoint(tablet) {
+			gap: rem(16);
+		}
+	}
+
+	ul {
+		display: flex;
+		flex-direction: column;
+		gap: rem(8);
+		padding-bottom: rem(16);
+
+		@include breakpoint(tablet) {
+			padding-bottom: rem(24);
+		}
+
+		li {
+			border: 1px solid rgb(30 30 30 / 10%);
+			border-radius: rem(8);
+			overflow: hidden;
+			scale: 0.9999;
+
+			header {
+				flex-direction: row;
+				justify-content: space-between;
+				align-items: center;
+				background-color: var(--white-to-light-blue);
+				padding: rem(12) rem(16);
+
+				@include breakpoint(tablet) {
+					padding: rem(16) rem(20);
+				}
+			}
+		}
+
+		svg {
+			width: rem(14);
+			height: rem(14);
+			fill: none;
+
+			@include breakpoint(tablet) {
+				width: rem(16);
+				height: rem(16);
+			}
+		}
+	}
+
+	&__title-wrapper {
+		position: relative;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__close {
+		position: absolute;
+		width: rem(32);
+		height: rem(32);
+		right: 0;
+		top: 50%;
+		translate: 0 -50%;
+
+		/* stylelint-disable-next-line no-descending-specificity */
+		svg {
+			width: 100%;
+			height: 100%;
+		}
+	}
+
+	&__item {
+		header {
+			cursor: pointer;
+
+			svg {
+				transition: 0.5s transform $ease-out-quart;
+			}
+		}
+
+		&.expanded {
+			header {
+				svg {
+					transform: rotate(180deg);
+				}
+			}
+		}
+	}
+
+	&__tab-title {
+		display: flex;
+		align-items: center;
+		gap: rem(14);
+		flex: 1;
+
+		@include breakpoint(tablet) {
+			gap: rem(20);
+		}
+	}
+
+	&__tab-content {
+		position: relative;
+		height: 0;
+
+		p {
+			border-top: 1px solid rgb(30 30 30 / 18%);
+			padding: rem(16) rem(20);
+		}
+	}
+
+	&__module {
+		position: relative;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		padding: var(--global-padding);
+
+		@include breakpoint(desktop) {
+			padding: rem(32);
+		}
+
+		// gap: rem(16);
+
+		// @include breakpoint(tablet) {
+		// 	gap: rem(24);
+		// }
+	}
+
+	&__actions {
+		display: flex;
+		flex-wrap: wrap;
+		gap: rem(8);
+		padding-top: rem(16);
+
+		@include breakpoint(tablet) {
+			gap: rem(12);
+			padding-top: rem(24);
+		}
+
+		a {
+			padding-top: rem(8);
+
+			--text-transform: normal;
+			--letter-spacing: 0;
+
+			@include text(body-small);
+		}
+
+		div {
+			display: flex;
+			gap: rem(8);
+
+			@include breakpoint-max(tablet) {
+				width: 100%;
+			}
+
+			@include breakpoint(tablet) {
+				gap: rem(12);
+			}
+
+			.button {
+				@include breakpoint-max(tablet) {
+					flex-basis: calc(50% - rem(4));
+				}
+			}
+		}
+
+		.save-bt {
+			@include breakpoint-max(tablet) {
+				flex-basis: 100%;
+			}
+		}
+	}
+
+	&__main {
+		@include breakpoint(tablet) {
+			width: rem(449);
+		}
+
+		button {
+			flex: 1;
+		}
+	}
+
+	&__prefs {
+		@include breakpoint(tablet) {
+			width: rem(734);
+		}
+
+		button {
+			@include breakpoint(tablet) {
+				width: rem(166);
+			}
+		}
+
+		.cookieconsent__actions {
+			position: relative;
+			justify-content: space-between;
+
+			&::before {
+				content: '';
+				display: block;
+				position: absolute;
+				scale: 0.9999;
+				width: calc(100% + var(--global-padding) * 2);
+				height: 1px;
+				background-color: rgb(30 30 30 / 18%);
+				top: 0;
+				left: 50%;
+				translate: -50% 0;
+			}
+		}
+	}
+
+	&__scroll {
+		position: relative;
+		width: 100%;
+		max-height: rem(250);
+		overflow-y: scroll;
+		margin-top: rem(16);
+
+		@include breakpoint(tablet) {
+			margin-top: rem(24);
+		}
+	}
+
+	&.once-inview {
+		.cookieconsent__wrapper {
+			transition: 1s opacity $opacity-ease;
+			opacity: 1;
+		}
+	}
+
+	&.finish {
+		.cookieconsent__wrapper {
+			transition-timing-function: $opacity-ease;
+			transition-duration: 0.7s;
+			transition-delay: 0s;
+			opacity: 0;
+		}
+	}
+}

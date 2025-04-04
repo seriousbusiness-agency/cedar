@@ -1,0 +1,8 @@
+title: Legal
+
+fields:
+  text:
+    label: Text
+    type: textarea
+    kirbytext: false
+    breaks: true

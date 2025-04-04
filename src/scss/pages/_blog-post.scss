@@ -1,0 +1,62 @@
+@use '../core/fonts' as *;
+@use '../utils/functions' as *;
+@use '../utils/mixins' as *;
+@use '../utils/easings' as *;
+
+[data-parent='resources'] body {
+	background-color: var(--white);
+
+	.article-content {
+		@include breakpoint(desktop) {
+			max-width: rem(780);
+		}
+
+		&-wrapper {
+			padding-inline: rem(16);
+			background-color: var(--white);
+
+			@include breakpoint(desktop) {
+				padding-inline: rem(48 + 68 + 290) rem(0);
+			}
+		}
+
+		> section {
+			padding-inline: 0;
+			width: 100%;
+			background-color: var(--white);
+		}
+	}
+
+	.side-text {
+		&__image {
+			height: rem(210);
+
+			@include breakpoint(desktop) {
+				width: rem(371);
+				height: rem(342);
+			}
+		}
+
+		&__title {
+			@include breakpoint-max(desktop) {
+				@include text(h4);
+			}
+		}
+
+		&__text.extend {
+			@include breakpoint(desktop) {
+				margin: 0;
+				justify-content: space-between;
+				height: 100%;
+			}
+		}
+	}
+
+	.text {
+		text-align: left;
+
+		&__title {
+			@include text(h3);
+		}
+	}
+}

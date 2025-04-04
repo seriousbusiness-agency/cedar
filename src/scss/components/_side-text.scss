@@ -1,0 +1,99 @@
+@use '../core/fonts' as *;
+@use '../utils/functions' as *;
+@use '../utils/mixins' as *;
+@use '../utils/easings' as *;
+
+.side-text {
+	padding: rem(80) rem(16) rem(40);
+	display: flex;
+	justify-content: space-between;
+	gap: rem(30);
+	background-color: var(--white);
+
+	@include breakpoint-max(desktop) {
+		flex-direction: column;
+	}
+
+	@include breakpoint(desktop) {
+		padding: rem(123) rem(48) rem(80);
+		gap: rem(75);
+	}
+
+	&__image {
+		width: 100%;
+		height: rem(333);
+		flex-shrink: 0;
+
+		@include breakpoint(desktop) {
+			width: rem(666);
+			height: rem(428);
+		}
+
+		img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			border-radius: rem(12);
+		}
+	}
+
+	&__content {
+		flex-shrink: 0;
+		max-width: rem(603);
+		display: flex;
+		flex-direction: column;
+		gap: rem(22);
+	}
+
+	&__top {
+		display: flex;
+		align-items: center;
+		gap: rem(14);
+	}
+
+	&__icon {
+		width: rem(36);
+		height: rem(36);
+		flex-shrink: 0;
+
+		img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+	}
+
+	&__subtitle {
+		color: var(--dark-gray-30);
+		text-transform: uppercase;
+
+		@include text(h5);
+
+		@include breakpoint(desktop) {
+			@include text(h6);
+		}
+	}
+
+	&__text {
+		margin-top: auto;
+		display: flex;
+		flex-direction: column;
+		gap: rem(24);
+	}
+
+	&__title {
+		@include text(h3);
+	}
+
+	&__paragraph {
+		color: var(--dark-gray-70);
+
+		@include text(body);
+	}
+
+	&.right {
+		@include breakpoint(desktop) {
+			flex-direction: row-reverse;
+		}
+	}
+}
