@@ -88,7 +88,7 @@
 			text-transform: uppercase;
 			color: var(--dark-gray-30);
 
-			@include text(small-info-bold);
+			@include text(body);
 		}
 
 		&__items {
@@ -146,7 +146,7 @@
 				text-transform: uppercase;
 				color: var(--dark-gray-30);
 
-				@include text(small-info-bold);
+				@include text(body);
 			}
 		}
 

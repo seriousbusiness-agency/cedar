@@ -10,40 +10,17 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import gsap from 'gsap/all'
 import AnimationTrigger from './generic/AnimationTrigger'
 
-import Benefits from './components/Benefits'
 import Card from './components/Card'
 import Cards from './components/Cards'
-import CareerBenefits from './components/CareerBenefits'
-import Careers from './components/Careers'
 import CookieConsent from './components/CookieConsent'
 import CookieConsentItem from './components/CookieConsentItem'
-import Faq from './components/Faq'
-import FeaturesSlider from './components/FeaturesSlider'
 import Hero from './components/Hero'
-import HeroVariant from './components/HeroVariant'
-import History from './components/History'
-import HowItWorks from './components/HowItWorks'
-import Kpis from './components/Kpis'
 import MaskHover from './components/MaskedHover'
 import Navbar from './components/Navbar'
-import SuccessStorySlider from './components/SuccessStorySlider'
 import SwitchButton from './components/SwitchButton'
-import Team from './components/Team'
 import TimedAccordion from './components/TimedAccordion'
-import Video from './components/Video'
 import Homepage from './pages/homepage/Homepage'
 import LazyVideo from './components/LazyVideo'
-import UseCases from './components/UseCases'
-import Values from './components/Values'
-import Partners from './components/Partners'
-import PartnersCards from './components/PartnersCards'
-import Gallery from './components/Gallery'
-import ArticleVideo from './components/ArticleVideo'
-import BlogListing from './components/BlogListing'
-import Events from './components/Events'
-import Contact from './pages/contact/Contact'
-import FeaturesCards from './components/FeaturesCards'
-import HeroFull from './components/HeroFull'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -66,37 +43,14 @@ class Main extends Component {
 			'switch-button': SwitchButton,
 			button: MaskHover,
 			hero: Hero,
-			video: Video,
 			cards: Cards,
 			'cards-item': Card,
-			'success-story-slider': SuccessStorySlider,
 			'timed-accordion': TimedAccordion,
-			'how-it-works': HowItWorks,
-			'features-slider': FeaturesSlider,
-			faq: Faq,
-			'hero-variant': HeroVariant,
-			history: History,
-			team: Team,
-			careers: Careers,
-			'career-benefits': CareerBenefits,
-			benefits: Benefits,
-			kpis: Kpis,
-			values: Values,
-			'lazy-video': LazyVideo,
-			'use-cases': UseCases,
-			partners: Partners,
-			'partners-cards': PartnersCards,
-			gallery: Gallery,
-			'article-video': ArticleVideo,
-			'blog-listing': BlogListing,
-			events: Events,
-			'features-cards': FeaturesCards,
-			'hero-full': HeroFull
+			'lazy-video': LazyVideo
 		})
 
 		Router.register({
-			homepage: Homepage,
-			contact: Contact
+			homepage: Homepage
 		})
 
 		window.scrollTo(0, 0)
