@@ -12,19 +12,19 @@
 	h1 {
 		margin-bottom: rem(124);
 
-		@include text(h3);
+		@include text(h2);
 	}
 
 	h2 {
-		@include text(h4);
+		@include text(h3);
 	}
 
 	h3 {
-		@include text(h5);
+		@include text(h4);
 	}
 
 	h4 {
-		@include text(h6);
+		// @include text(h6);
 	}
 
 	ul {

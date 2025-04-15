@@ -13,7 +13,7 @@ import {
 import gsap from 'gsap/all'
 import Cookies from 'js-cookie'
 
-const COOKIE_NAME = 'cookie.partscloud'
+const COOKIE_NAME = 'cookie.cedar'
 
 export default class CookieConsent extends Component {
 	currentModule

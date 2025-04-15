@@ -1,0 +1,26 @@
+baseURL = '/'
+languageCode = 'en-us'
+title = 'Cedar DB'
+watch = true
+ignoreCache = true
+
+[module]
+	[[module.mounts]]
+	source = "js"
+	target = "assets/js"
+	disableWatch = true
+
+	[[module.mounts]]
+	source = "js"
+	target = "static/js"
+	disableWatch = true
+
+	[[module.mounts]]
+	source = "img"
+	target = "static/img"
+	disableWatch = true
+
+	[[module.mounts]]
+	source = "jsmanifest.json"
+	target = "assets/jsmanifest.json"
+	disableWatch = true

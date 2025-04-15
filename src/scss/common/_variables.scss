@@ -2,11 +2,23 @@
 
 // colors
 :root {
+	--orange-200: #feb28a;
+	--orange-500: #fb773e;
+	--orange-600: #eb6938;
+	--orange-900: #853e21;
+	--dark-blue-900: #0d222d;
+	--dark-blue-700: #536269;
+	--dark-blue-400: #97a0a4;
+	--dark-blue-300: #afb5b8;
+	--dark-blue-200: #c6cacc;
+	--dark-blue-100: #dddfe0;
+	--dark-blue-050: #e9eaea;
+	--off-white: #f4f4f4;
 }
 
 // layout variables
 $default-font-size: 16;
-$layout-desktop-width: 1440;
+$layout-desktop-width: 1400;
 $layout-tablet-width: 768;
 $layout-mobile-width: 375;
 $max-layout-aspect-ratio: 2.37;
@@ -21,114 +33,104 @@ $breakpoints: (
 $headings: (
 	'h1': (
 		'default': (
-			'font-size': var(--font-size, rem(48)),
-			'line-height': 1,
-			'letter-spacing': -0.05em,
-			'font-weight': var(--font-weight, 500)
+			'font-size': var(--font-size, rem(40)),
+			'line-height': var(--font-size, 0.95),
+			'letter-spacing': var(--letter-spacing, -0.03em),
+			// 'font-weight': var(--font-weight, 500)
 		),
 		'desktop': (
-			'font-size': var(--font-size, rem(84))
+			'line-height': var(--font-size, 1),
+			'font-size': var(--font-size, rem(64))
 		)
 	),
 	'h2': (
 		'default': (
-			'font-size': var(--font-size, rem(36)),
-			'line-height': 1,
-			'letter-spacing': -0.05em,
-			'font-weight': var(--font-weight, 500)
+			'font-size': var(--font-size, rem(28)),
+			'line-height': var(--font-size, 0.95),
+			'letter-spacing': var(--letter-spacing, -0.03em),
+			// 'font-weight': var(--font-weight, 500)
 		),
 		'desktop': (
-			'font-size': var(--font-size, rem(64))
+			'line-height': var(--font-size, 1),
+			'font-size': var(--font-size, rem(40))
 		)
 	),
 	'h3': (
 		'default': (
-			'font-size': var(--font-size, rem(28)),
-			'line-height': var(--line-height, 1.05),
-			'letter-spacing': var(--letter-spacing, -0.04em),
-			'font-weight': var(--font-weight, 500)
+			'font-size': var(--font-size, rem(20)),
+			'line-height': var(--line-height, 1.2),
+			'letter-spacing': var(--letter-spacing, -0.05em),
+			// 'font-weight': var(--font-weight, 500)
 		),
 		'desktop': (
-			'font-size': var(--font-size, rem(40))
+			'font-size': var(--font-size, rem(24))
 		)
 	),
 	'h4': (
 		'default': (
-			'font-size': var(--font-size, rem(20)),
-			'line-height': 1.05,
-			'letter-spacing': var(--letter-spacing, -0.03em),
-			'font-weight': var(--font-weight, 500)
-		),
-		'desktop': (
-			'font-size': var(--font-size, rem(28))
-		)
-	),
-	'h5': (
-		'default': (
 			'font-size': var(--font-size, rem(16)),
-			'line-height': 1.2,
-			'letter-spacing': -0.02em,
-			'font-weight': var(--font-weight, 500)
+			'line-height': var(--font-size, 1.4),
+			'letter-spacing': var(--letter-spacing, -0.03em),
+			// 'font-weight': var(--font-weight, 500)
 		),
 		'desktop': (
-			'line-height': 1.05,
-			'letter-spacing': -0.04em,
 			'font-size': var(--font-size, rem(20))
-		)
-	),
-	'h6': (
-		'default': (
-			'font-size': var(--font-size, rem(12)),
-			'line-height': var(--line-height, 1.2),
-			'letter-spacing': var(--letter-spacing, -0.01em),
-			'font-weight': var(--font-weight, 600)
-		),
-		'desktop': (
-			'font-size': var(--font-size, rem(16))
 		)
 	),
 	'body': (
 		'default': (
-			'font-size': var(--font-size, rem(16)),
+			'font-size': var(--font-size, rem(14)),
 			'line-height': var(--line-height, 1.5),
-			'font-weight': var(--font-weight, 300)
+			'letter-spacing': var(--letter-spacing, -0.03em),
+			// 'font-weight': var(--font-weight, 300)
 		),
 		'desktop': (
+			'line-height': var(--line-height, 1.4),
 			'font-size': var(--font-size, rem(16))
 		)
 	),
 	'body-large': (
 		'default': (
 			'font-size': var(--font-size, rem(16)),
-			'line-height': var(--line-height, 1.5),
-			'font-weight': var(--font-weight, 300)
+			'line-height': var(--line-height, 1.4),
+			// 'font-weight': var(--font-weight, 300)
 		),
 		'desktop': (
-			'line-height': var(--line-height, 1.4),
 			'font-size': var(--font-size, rem(20))
 		)
 	),
 	'body-small': (
 		'default': (
 			'font-size': var(--font-size, rem(12)),
-			'line-height': 1.2,
-			'letter-spacing': -0.01em,
-			'font-weight': var(--font-weight, 300)
+			'line-height': var(--font-size, 1.5),
+			'letter-spacing': var(--letter-spacing, -0.03em),
+			// 'font-weight': var(--font-weight, 300)
 		),
 		'desktop': (
-			'line-height': 1.5,
-			'font-size': var(--font-size, rem(16))
+			'line-height': var(--font-size, 1.5),
+			'font-size': var(--font-size, rem(14))
 		)
 	),
 	'button': (
 		'default': (
-			'font-size': var(--button-font-size, rem(16)),
-			'line-height': 0.9,
-			'letter-spacing': -0.02em,
-			'font-weight': var(--button-font-weight, 500)
-		),
-		'desktop': (
-			'font-size': var(--button-font-size, rem(16))
+			'font-size': var(--button-font-size, rem(12)),
+			'line-height': var(--font-size, 0.95),
+			'letter-spacing': var(--letter-spacing, -0.05em),
+			// 'font-weight': var(--button-font-weight, 500)
+		)
+	),
+	'button-large': (
+		'default': (
+			'font-size': var(--button-font-size, rem(14)),
+			'line-height': var(--font-size, 0.95),
+			// 'font-weight': var(--button-font-weight, 500)
+		)
+	),
+	'tag': (
+		'default': (
+			'font-size': var(--button-font-size, rem(14)),
+			'line-height': var(--font-size, 1.25),
+			// 'font-weight': var(--button-font-weight, 500)
 		)
 	)
 );

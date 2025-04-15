@@ -1,0 +1,8 @@
+{{ define "main" }}
+
+  {{ range .Params.blocks }}
+  {{ $blockTemplate := printf "blocks/%s.html" .template }}
+  {{ partial $blockTemplate . }}
+  {{ end }}
+
+{{ end }}

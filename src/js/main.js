@@ -32,6 +32,8 @@ class Main extends Component {
 	}
 
 	setup = () => {
+		console.log('init main!!!!')
+
 		this.init()
 
 		fixResizeObserver()
@@ -130,7 +132,7 @@ class Main extends Component {
 		this.scroller.scrollTop(0)
 		this.scroller.start()
 		window.preloader.emit('finishanimation')
-		window.preloader.element.remove()
+		// window.preloader.element.remove()
 		window.preloader.dispose()
 		this.animationTrigger.init()
 		this.emit('finishintro')

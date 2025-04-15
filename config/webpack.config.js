@@ -105,22 +105,21 @@ const HASH_ZISE = 5
 const FILENAME = PRODUCTION_MODE ? `[name].[contenthash:${HASH_ZISE}]` : '[name]'
 const resolvePaths = (arr) => arr.map((path) => `${SRC_DIR}/${path}`)
 const FILES_WITHOUT_HASH = resolvePaths([
-    `**/*.txt`,
-    `**/*.yml`,
-    `**/*.html`,
-    `**/*.php`,
-    `**/content/**/*`,
-    `**/kirby/**/*`,
-    `**/media/**/*`,
-    `**/accounts/**/*`,  // Add this line to preserve login data
-    `**/*.htaccess`,
-    `**/sitemap_index.xml`,
-    `**/sitemap.xml`,
-    `**/robots.txt`,
-    `**/jsmanifest.json`,
-    `**/pwamanifest.json`,
-    `**/site.webmanifest`,
-    ...pkg.files_without_hash
+	`**/*.txt`,
+	`**/*.yml`,
+	`**/*.html`,
+	`**/*.php`,
+	`**/*.toml`,
+	`**/*.md`,
+	`**/content/**/*`,
+	`**/*.htaccess`,
+	`**/sitemap_index.xml`,
+	`**/sitemap.xml`,
+	`**/robots.txt`,
+	`**/jsmanifest.json`,
+	`**/pwamanifest.json`,
+	`**/site.webmanifest`,
+	...pkg.files_without_hash
 ])
 const FILES_WITH_MUSTACHE = resolvePaths([])
 const MAX_FILE_SIZE = 2048000
@@ -146,13 +145,9 @@ const TRANSFORM_RULES = {
 }
 const HTML_SOURCE_FILES = [
 	{
-		templates: glob.sync(`${SRC_PUBLIC_DIR}/site/**/*.{html,php,txt,yml}`, {
+		templates: glob.sync(`${SRC_PUBLIC_DIR}/**/*.{html,php,md}`, {
 			ignore: [
-				`${SRC_PUBLIC_DIR}/site/accounts/**/*`,
-				`${SRC_PUBLIC_DIR}/site/plugins/**/*`,
-				`${SRC_PUBLIC_DIR}/site/cache/**/*`,
-				`${SRC_PUBLIC_DIR}/site/config/**/*`,
-				`${SRC_PUBLIC_DIR}/site/languages/**/*`
+				// `${SRC_PUBLIC_DIR}/site/accounts/**/*`,
 			]
 		}),
 		chunks: ['preloader'],
@@ -197,8 +192,7 @@ const COPY_FILES = [
 				...FILES_WITHOUT_HASH,
 				`${SRC_PUBLIC_DIR}/img`,
 				`${SRC_PUBLIC_DIR}/font`,
-				`${SRC_PUBLIC_DIR}/manifest.json`,
-				`${SRC_PUBLIC_DIR}/site/accounts/**/*`  // Add this line as well
+				`${SRC_PUBLIC_DIR}/manifest.json`
 			]
 		}
 	},

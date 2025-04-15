@@ -92,6 +92,8 @@ class Preloader extends Component {
 		// function to finish animation after main.js is ready. Fix to improve the performance of the initial animation
 		this.finishAnimation = () => {
 			gsap.to(this.element, {
+				autoAlpha: 0,
+				duration: 0.3,
 				onStart: () => {
 					window.main.ready()
 					this.emit('finishanimation')

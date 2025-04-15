@@ -1,0 +1,22 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
+<script>
+  <% if(!ENV.production){ %>
+    window.manifest = {};
+  <% } %>
+  <% if(ENV.production){ %>
+    window.manifest = {{ resources.Get "/jsmanifest.json" | transform.Unmarshal | jsonify | safeJS }}
+  <% } %>
+  window.baseURL = 'http://127.0.0.1:1313/';
+
+  <% if(ENV.debug ){ %>
+    window.debug = true;
+  <% } %>
+  <% if(!ENV.production){ %>
+    window.dev = true;
+  <% } %>
+  <% if(ENV.extract){ %>
+    window.extract = true;
+  <% } %>
+</script>

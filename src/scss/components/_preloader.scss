@@ -4,4 +4,8 @@
 @use '../utils/easings' as *;
 
 .main-preloader {
+	position: fixed;
+	inset: 0;
+	background-color: var(--white, white);
+	z-index: 99999;
 }

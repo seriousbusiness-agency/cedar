@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="{{ site.Language.LanguageCode }}" data-parent data-template="{{ .Layout }}" dir="{{ or site.Language.LanguageDirection `ltr` }}">
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body>
+  {{ partial "preloader.html" . }}
+  <div class="root hide">
+    <div class="top" id="top" style="position: absolute; top: 0; height: 0; opacity: 0"></div>
+    {{ partial "cookie-consent.html" . }}
+    {{ partial "transition.html" . }}
+    {{ partial "cursor.html" . }}
+      <div class="wrapper">
+        <main class="root-section">
+          {{ partial "navbar.html" . }}
+          {{ block "main" . }}{{ end }}
+        </main>
+      </div>
+  </div>
+  <footer>
+    {{ partial "footer.html" . }}
+  </footer>
+</body>
+</html>

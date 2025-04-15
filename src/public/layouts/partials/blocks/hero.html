@@ -1,0 +1,26 @@
+<section class="hero" id="hero" data-component="hero">
+  <div class="hero__content">
+    <h1 class="hero__title" data-anim="lines">{{ .title }}</h1>
+    <p class="hero__paragraph" data-anim="lines">{{ .paragraph }}</p>
+    <div class="hero__buttons">
+      <a href="{{ .buttons.primary.url }}" data-router class="button button--solid">{{ .buttons.primary.text }}</a>
+      <a href="{{ .buttons.secondary.url }}" data-router class="button button--transparent">{{ .buttons.secondary.text }}</a>
+    </div>
+  </div>
+
+  <figure class="hero__image">
+    <img src="{{ .image.src }}" alt="{{ .image.alt }}">
+  </figure>
+
+  <div class="hero__logos">
+    {{ range seq 3 }}
+    <div class="hero__logos-wrapper">
+      {{ range $.logos }}
+        {{ range .images}}
+          <img src="{{ .src }}" alt="{{ .alt }}">
+        {{ end }}
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
+</section>
