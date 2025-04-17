@@ -21,6 +21,8 @@ import SwitchButton from './components/SwitchButton'
 import TimedAccordion from './components/TimedAccordion'
 import Homepage from './pages/homepage/Homepage'
 import LazyVideo from './components/LazyVideo'
+import Features from './components/Features'
+import GetStarted from './components/GetStarted'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -48,7 +50,9 @@ class Main extends Component {
 			cards: Cards,
 			'cards-item': Card,
 			'timed-accordion': TimedAccordion,
-			'lazy-video': LazyVideo
+			'lazy-video': LazyVideo,
+			features: Features,
+			start: GetStarted
 		})
 
 		Router.register({

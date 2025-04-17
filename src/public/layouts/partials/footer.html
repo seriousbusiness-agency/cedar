@@ -1,4 +1,73 @@
+<footer class="footer" id="footer" data-component="footer">
+  <div class="footer__top">
+    <h2 class="footer__top__title">Start with CedarDB<br>in seconds</h2>
+    <p class="footer__top__paragraph">Install CedarDB locally, run it in Docker or deploy our cloud image.</p>
+    <a href="#" class="button button--solid" data-router><span>Start Now</span></a>
+  </div>
 
-<script src="/js/preloader.js"></script>
-<script src="/js/main.js"></script>
-<script src="/js/runtime.js"></script>
+  <div class="footer__links">
+    <figure class="footer__links__logo">
+      <img src="img/logo.svg" alt="">
+    </figure>
+
+    <div class="footer__links__columns">
+      <div class="footer__links__column">
+        <h4 class="footer__links__column__title">Company</h4>
+        <div class="footer__links__column__links">
+          <a href="#" class="footer__links__column__link">Solutions</a>
+          <a href="#" class="footer__links__column__link">Pricing</a>
+          <a href="#" class="footer__links__column__link">About Us</a>
+          <a href="#" class="footer__links__column__link">Documentation</a>
+          <a href="#" class="footer__links__column__link">Blog</a>
+        </div>
+      </div>
+      <div class="footer__links__column">
+        <h4 class="footer__links__column__title">Developers</h4>
+        <div class="footer__links__column__links">
+          <a href="#" class="footer__links__column__link">Documentations</a>
+        </div>
+      </div>
+      <div class="footer__links__column">
+        <h4 class="footer__links__column__title">Legal</h4>
+        <div class="footer__links__column__links">
+          <a href="#" class="footer__links__column__link">Imprint</a>
+          <a href="#" class="footer__links__column__link">Privacy Policy</a>
+        </div>
+      </div>
+      <div class="footer__links__column">
+        <h4 class="footer__links__column__title">Social</h4>
+        <div class="footer__links__column__links footer__links__column__links--icons">
+          <a href="#" class="footer__links__column__link"><img src="img/twitter-logo.svg" alt=""></a>
+          <a href="#" class="footer__links__column__link"><img src="img/instagram-logo.svg" alt=""></a>
+          <a href="#" class="footer__links__column__link"><img src="img/linkedin-logo.svg" alt=""></a>
+          <a href="#" class="footer__links__column__link"><img src="img/youtube-logo.svg" alt=""></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer__links__copyright">&copy; 2025 Cedar DB. All rights reserved.</div>
+  </div>
+</footer>
+
+{{ $isProd := hugo.IsProduction }}
+
+{{ if $isProd }}
+  {{ $manifest := resources.Get "manifest.json" | transform.Unmarshal }}
+
+  {{ printf "%#v" $manifest }}
+
+  <!-- CSS -->
+  <link rel="preload stylesheet" href="css/essential.{{ index $manifest.css "essential.css" }}.css" as="style" crossorigin="anonymous">
+
+  <!-- Preloader -->
+  <script src="js/preloader.{{ index $manifest.js "preloader.js" }}.js" defer></script>
+{{ else }}
+  <!-- CSS -->
+  <link rel="preload stylesheet" href="css/essential.css" as="style" crossorigin="anonymous">
+
+  <!-- JavaScript -->
+  <script src="js/runtime.js"></script>
+
+  <!-- Preloader -->
+  <script src="js/preloader.js" defer></script>
+{{ end }}

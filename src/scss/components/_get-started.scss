@@ -1,0 +1,150 @@
+@use '../core/fonts' as *;
+@use '../utils/functions' as *;
+@use '../utils/mixins' as *;
+@use '../utils/easings' as *;
+
+.start {
+	padding: rem(120) rem(270);
+	display: flex;
+	flex-direction: column;
+	gap: rem(80);
+
+	&__heading {
+		display: flex;
+		flex-direction: column;
+		gap: rem(24);
+		text-align: center;
+		align-items: center;
+	}
+
+	&__title {
+		color: var(--dark-blue-900);
+
+		@include text(h2);
+	}
+
+	&__paragraph {
+		color: var(--dark-blue-700);
+
+		@include text(body-large);
+	}
+
+	&__items-wrapper {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		gap: rem(40);
+	}
+
+	&__items-container {
+		position: relative;
+		height: rem(480);
+	}
+
+	&__items {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: rem(24);
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+
+		// &:has(> div:nth-child(4n)) {
+		// 	> div {
+		// 		flex-basis: calc(100% / 4 - rem(12));
+		// 	}
+		// }
+
+		&__filters {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+		&__filter {
+			padding: rem(12) rem(16);
+			aspect-ratio: 129 / 35;
+			height: rem(35);
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			cursor: pointer;
+			transition:
+				opacity 0.45s $ease-out-quad,
+				background-color 0.45s $ease-out-quad;
+
+			> span {
+				opacity: 0.22;
+				transition:
+					opacity 0.45s $ease-out-quad,
+					background-color 0.45s $ease-out-quad;
+
+				@include text(button);
+			}
+
+			&:hover {
+				background-color: var(--stroke);
+
+				> span {
+					opacity: 1;
+				}
+			}
+
+			&:not(:last-child) {
+				border: 1px solid var(--stroke);
+				border-right: none;
+			}
+
+			&:last-child {
+				border: 1px solid var(--stroke);
+			}
+
+			&:first-child {
+				background-color: var(--stroke);
+
+				> span {
+					opacity: 1;
+				}
+			}
+		}
+	}
+
+	&__item {
+		padding: rem(40) rem(24);
+		display: flex;
+		flex-direction: column;
+		gap: rem(53);
+		background-color: var(--dark-blue-050);
+		justify-content: space-between;
+
+		&__icon {
+			width: rem(18);
+			height: rem(17);
+
+			img {
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+			}
+		}
+
+		&__content {
+			display: flex;
+			flex-direction: column;
+			gap: rem(8);
+		}
+
+		&__title {
+			color: var(--dark-blue-900);
+
+			@include text(h4);
+		}
+
+		&__paragraph {
+			color: var(--dark-blue-700);
+
+			@include text(body-small);
+		}
+	}
+}

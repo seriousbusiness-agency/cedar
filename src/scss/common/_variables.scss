@@ -14,6 +14,9 @@
 	--dark-blue-100: #dddfe0;
 	--dark-blue-050: #e9eaea;
 	--off-white: #f4f4f4;
+	--white: #fff;
+	--black: #000;
+	--stroke: #dddfe0;
 }
 
 // layout variables
@@ -39,6 +42,7 @@ $headings: (
 			// 'font-weight': var(--font-weight, 500)
 		),
 		'desktop': (
+			'letter-spacing': var(--letter-spacing, -0.05em),
 			'line-height': var(--font-size, 1),
 			'font-size': var(--font-size, rem(64))
 		)

@@ -6,6 +6,16 @@ ignoreCache = true
 
 [module]
 	[[module.mounts]]
+	source = "css"
+	target = "assets/css"
+	disableWatch = true
+
+	[[module.mounts]]
+	source = "css"
+	target = "static/css"
+	disableWatch = true
+
+	[[module.mounts]]
 	source = "js"
 	target = "assets/js"
 	disableWatch = true
@@ -21,6 +31,16 @@ ignoreCache = true
 	disableWatch = true
 
 	[[module.mounts]]
+	source = "font"
+	target = "static/font"
+	disableWatch = true
+
+	[[module.mounts]]
 	source = "jsmanifest.json"
 	target = "assets/jsmanifest.json"
+	disableWatch = true
+
+	[[module.mounts]]
+	source = "manifest.json"
+	target = "assets/manifest.json"
 	disableWatch = true

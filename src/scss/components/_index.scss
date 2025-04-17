@@ -7,7 +7,14 @@
 @forward 'switch-button';
 @forward 'transition';
 
-// comopnents
-@forward 'cards';
+// common comopnents
 @forward 'marquee';
+@forward 'cards';
 @forward 'video';
+
+// custom components
+@forward 'hero';
+@forward 'features';
+@forward 'tabs';
+@forward 'get-started';
+@forward 'blog-listing';

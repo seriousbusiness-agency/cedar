@@ -1,8 +1,8 @@
 {{ define "main" }}
-<div class="about-page">
-    <h1>Essa página aqui é a: {{ .Title }}</h1>
-    <div class="about-content">
-        <a href="{{ .Params.linkURL }}" data-router>{{ .Params.linkTitle }}</a>
-    </div>
-</div>
+
+  {{ range .Params.blocks }}
+  {{ $blockTemplate := printf "blocks/%s.html" .template }}
+  {{ partial $blockTemplate . }}
+  {{ end }}
+
 {{ end }}

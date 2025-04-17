@@ -8,7 +8,7 @@
   <% if(ENV.production){ %>
     window.manifest = {{ resources.Get "/jsmanifest.json" | transform.Unmarshal | jsonify | safeJS }}
   <% } %>
-  window.baseURL = 'http://127.0.0.1:1313/';
+  window.baseURL = {{ site.Home.Permalink }};
 
   <% if(ENV.debug ){ %>
     window.debug = true;
